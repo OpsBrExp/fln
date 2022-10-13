@@ -1,0 +1,3528 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a87706937c754043a17f20627b219f0f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a87706937c754043a17f20627b219f0f" ></div>
+        
+</body>
+<script>    
+    
+            var map_a87706937c754043a17f20627b219f0f = L.map(
+                "map_a87706937c754043a17f20627b219f0f",
+                {
+                    center: [-27.57402159864845, -48.559485003562486],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6c93ea87c029425a95950ff85129de38 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a87706937c754043a17f20627b219f0f);
+        
+    
+            var marker_cluster_f24018e5e5494b65b8d6382b17623cc9 = L.markerClusterGroup(
+                {}
+            );
+            map_a87706937c754043a17f20627b219f0f.addLayer(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+            var marker_b246e4ce38844149ac5878fb5eb5a4be = L.marker(
+                [-27.5950642, -48.5588663],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_68c7927386694eb8aa2d299ed562c76b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c099300a7864d0a9f50432c54f77c49 = $(`<div id="html_3c099300a7864d0a9f50432c54f77c49" style="width: 100.0%; height: 100.0%;">Starbucks | STAR 231</div>`)[0];
+            popup_68c7927386694eb8aa2d299ed562c76b.setContent(html_3c099300a7864d0a9f50432c54f77c49);
+        
+
+        marker_b246e4ce38844149ac5878fb5eb5a4be.bindPopup(popup_68c7927386694eb8aa2d299ed562c76b)
+        ;
+
+        
+    
+    
+            marker_b246e4ce38844149ac5878fb5eb5a4be.bindTooltip(
+                `<div>
+                     Starbucks | STAR 231
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0cf25dbcdb743829ff58f584b3a1df0 = L.marker(
+                [-27.591175683, -48.616987028],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_113ed4c76d0c42698eb205d2a70fbe9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c75d98814ff44bd99e2a2bdee1a6869a = $(`<div id="html_c75d98814ff44bd99e2a2bdee1a6869a" style="width: 100.0%; height: 100.0%;">Fort Atacadista, Florianopolis</div>`)[0];
+            popup_113ed4c76d0c42698eb205d2a70fbe9a.setContent(html_c75d98814ff44bd99e2a2bdee1a6869a);
+        
+
+        marker_c0cf25dbcdb743829ff58f584b3a1df0.bindPopup(popup_113ed4c76d0c42698eb205d2a70fbe9a)
+        ;
+
+        
+    
+    
+            marker_c0cf25dbcdb743829ff58f584b3a1df0.bindTooltip(
+                `<div>
+                     Fort Atacadista, Florianopolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0926dad73c5a450587405b3496d7ba31 = L.marker(
+                [-27.588271, -48.523472],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_78645014634944acb67f0a1de2b42419 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_949627655b7d4c6082cc290cffe9dc81 = $(`<div id="html_949627655b7d4c6082cc290cffe9dc81" style="width: 100.0%; height: 100.0%;">Droga Raia, Fl Trindade A</div>`)[0];
+            popup_78645014634944acb67f0a1de2b42419.setContent(html_949627655b7d4c6082cc290cffe9dc81);
+        
+
+        marker_0926dad73c5a450587405b3496d7ba31.bindPopup(popup_78645014634944acb67f0a1de2b42419)
+        ;
+
+        
+    
+    
+            marker_0926dad73c5a450587405b3496d7ba31.bindTooltip(
+                `<div>
+                     Droga Raia, Fl Trindade A
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4fe19a90d8d949c2b23b3275a1bf4b41 = L.marker(
+                [-27.437547, -48.398061],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_95140f626d714e99b3673b526cb3e729 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51475b33f2c24b93b0ca6668d5f65419 = $(`<div id="html_51475b33f2c24b93b0ca6668d5f65419" style="width: 100.0%; height: 100.0%;">Raia - Fl Ingleses A</div>`)[0];
+            popup_95140f626d714e99b3673b526cb3e729.setContent(html_51475b33f2c24b93b0ca6668d5f65419);
+        
+
+        marker_4fe19a90d8d949c2b23b3275a1bf4b41.bindPopup(popup_95140f626d714e99b3673b526cb3e729)
+        ;
+
+        
+    
+    
+            marker_4fe19a90d8d949c2b23b3275a1bf4b41.bindTooltip(
+                `<div>
+                     Raia - Fl Ingleses A
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce7fd86babae4cf58395d609b2654657 = L.marker(
+                [-27.5948732, -48.6139025],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_2c1cdd10eac148fb96d52b8c5ab8cdda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9afd053c77d64d5f97258ae33c3f82ea = $(`<div id="html_9afd053c77d64d5f97258ae33c3f82ea" style="width: 100.0%; height: 100.0%;">Raia, Kobrasol</div>`)[0];
+            popup_2c1cdd10eac148fb96d52b8c5ab8cdda.setContent(html_9afd053c77d64d5f97258ae33c3f82ea);
+        
+
+        marker_ce7fd86babae4cf58395d609b2654657.bindPopup(popup_2c1cdd10eac148fb96d52b8c5ab8cdda)
+        ;
+
+        
+    
+    
+            marker_ce7fd86babae4cf58395d609b2654657.bindTooltip(
+                `<div>
+                     Raia, Kobrasol
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5d9610763554adebfc15145feb2b8e7 = L.marker(
+                [-27.5442602, -48.5020995],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_10c824238e1945058195ef8f472cee53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7ca995ee6154e22a09565048b8a85c1 = $(`<div id="html_f7ca995ee6154e22a09565048b8a85c1" style="width: 100.0%; height: 100.0%;">Droga Raia, SACO GRANDE</div>`)[0];
+            popup_10c824238e1945058195ef8f472cee53.setContent(html_f7ca995ee6154e22a09565048b8a85c1);
+        
+
+        marker_c5d9610763554adebfc15145feb2b8e7.bindPopup(popup_10c824238e1945058195ef8f472cee53)
+        ;
+
+        
+    
+    
+            marker_c5d9610763554adebfc15145feb2b8e7.bindTooltip(
+                `<div>
+                     Droga Raia, SACO GRANDE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a2e96affd37e41ee844cba6f896d99fc = L.marker(
+                [-27.437547, -48.398061],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_1366d8f211c84a4a9a33063190cb1c55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab00040286c14ebca8e88fd65b4f74d5 = $(`<div id="html_ab00040286c14ebca8e88fd65b4f74d5" style="width: 100.0%; height: 100.0%;">Raia - Fl Ingleses A</div>`)[0];
+            popup_1366d8f211c84a4a9a33063190cb1c55.setContent(html_ab00040286c14ebca8e88fd65b4f74d5);
+        
+
+        marker_a2e96affd37e41ee844cba6f896d99fc.bindPopup(popup_1366d8f211c84a4a9a33063190cb1c55)
+        ;
+
+        
+    
+    
+            marker_a2e96affd37e41ee844cba6f896d99fc.bindTooltip(
+                `<div>
+                     Raia - Fl Ingleses A
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28dd711b7a7b4437a5917d844eaa0e29 = L.marker(
+                [-27.591175683, -48.616987028],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_14bb7b2410f34f03800dc69ea109e11d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0874b553aef64a5a87ce3889b2a3fc26 = $(`<div id="html_0874b553aef64a5a87ce3889b2a3fc26" style="width: 100.0%; height: 100.0%;">Fort Atacadista, Florianopolis</div>`)[0];
+            popup_14bb7b2410f34f03800dc69ea109e11d.setContent(html_0874b553aef64a5a87ce3889b2a3fc26);
+        
+
+        marker_28dd711b7a7b4437a5917d844eaa0e29.bindPopup(popup_14bb7b2410f34f03800dc69ea109e11d)
+        ;
+
+        
+    
+    
+            marker_28dd711b7a7b4437a5917d844eaa0e29.bindTooltip(
+                `<div>
+                     Fort Atacadista, Florianopolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a1995c8943514da0b64d32b8ac8f3cf9 = L.marker(
+                [-27.5906677, -48.514592766],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_0ed23c935e1d42cea96bdd8792178297 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ebb50796b3c94abdb49d4bcd1ff68bca = $(`<div id="html_ebb50796b3c94abdb49d4bcd1ff68bca" style="width: 100.0%; height: 100.0%;">Starbucks | STAR 172</div>`)[0];
+            popup_0ed23c935e1d42cea96bdd8792178297.setContent(html_ebb50796b3c94abdb49d4bcd1ff68bca);
+        
+
+        marker_a1995c8943514da0b64d32b8ac8f3cf9.bindPopup(popup_0ed23c935e1d42cea96bdd8792178297)
+        ;
+
+        
+    
+    
+            marker_a1995c8943514da0b64d32b8ac8f3cf9.bindTooltip(
+                `<div>
+                     Starbucks | STAR 172
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd38d35639154fdda5e4b32858269945 = L.marker(
+                [-27.57591558, -48.595136517],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_ab28782c41cd4c4da9dc319dc60f4116 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62b6004b5b3a4ae7804595a054c314a0 = $(`<div id="html_62b6004b5b3a4ae7804595a054c314a0" style="width: 100.0%; height: 100.0%;">Angeloni, Jardim Atlântico</div>`)[0];
+            popup_ab28782c41cd4c4da9dc319dc60f4116.setContent(html_62b6004b5b3a4ae7804595a054c314a0);
+        
+
+        marker_dd38d35639154fdda5e4b32858269945.bindPopup(popup_ab28782c41cd4c4da9dc319dc60f4116)
+        ;
+
+        
+    
+    
+            marker_dd38d35639154fdda5e4b32858269945.bindTooltip(
+                `<div>
+                     Angeloni, Jardim Atlântico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_789c4baa41d44890bd5d620ba0b1c8ae = L.marker(
+                [-27.5959, -48.5524],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_d553c844fd7f4018af3aa5757f3877aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2effae58f064f159cb5616bfdd6772f = $(`<div id="html_f2effae58f064f159cb5616bfdd6772f" style="width: 100.0%; height: 100.0%;">Burger King - Florianópolis 23584</div>`)[0];
+            popup_d553c844fd7f4018af3aa5757f3877aa.setContent(html_f2effae58f064f159cb5616bfdd6772f);
+        
+
+        marker_789c4baa41d44890bd5d620ba0b1c8ae.bindPopup(popup_d553c844fd7f4018af3aa5757f3877aa)
+        ;
+
+        
+    
+    
+            marker_789c4baa41d44890bd5d620ba0b1c8ae.bindTooltip(
+                `<div>
+                     Burger King - Florianópolis 23584
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c8eef97ecd0442ab310a28d0e646570 = L.marker(
+                [-27.591175683, -48.616987028],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_052a41c70a5945359d1cdf8afd342027 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c7bd2644f0640b5973c7954a694d37c = $(`<div id="html_0c7bd2644f0640b5973c7954a694d37c" style="width: 100.0%; height: 100.0%;">Fort Atacadista, Florianopolis</div>`)[0];
+            popup_052a41c70a5945359d1cdf8afd342027.setContent(html_0c7bd2644f0640b5973c7954a694d37c);
+        
+
+        marker_3c8eef97ecd0442ab310a28d0e646570.bindPopup(popup_052a41c70a5945359d1cdf8afd342027)
+        ;
+
+        
+    
+    
+            marker_3c8eef97ecd0442ab310a28d0e646570.bindTooltip(
+                `<div>
+                     Fort Atacadista, Florianopolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a544a0faf20941dfa6dbbc3fd70716d4 = L.marker(
+                [-27.591175683, -48.616987028],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_087bf67ed10147828a2f87cc4e8d572b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b48a7d6120d45ddbcb89f7da000f999 = $(`<div id="html_9b48a7d6120d45ddbcb89f7da000f999" style="width: 100.0%; height: 100.0%;">Fort Atacadista, Florianopolis</div>`)[0];
+            popup_087bf67ed10147828a2f87cc4e8d572b.setContent(html_9b48a7d6120d45ddbcb89f7da000f999);
+        
+
+        marker_a544a0faf20941dfa6dbbc3fd70716d4.bindPopup(popup_087bf67ed10147828a2f87cc4e8d572b)
+        ;
+
+        
+    
+    
+            marker_a544a0faf20941dfa6dbbc3fd70716d4.bindTooltip(
+                `<div>
+                     Fort Atacadista, Florianopolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84af38b08a1a4e338c1ffa224d34c39f = L.marker(
+                [-27.581229, -48.5840342],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_62adbc4ffc4b430096b463fca8ff5743 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d662094ff3bf4038be46ecff69eae30c = $(`<div id="html_d662094ff3bf4038be46ecff69eae30c" style="width: 100.0%; height: 100.0%;">Flame Burger </div>`)[0];
+            popup_62adbc4ffc4b430096b463fca8ff5743.setContent(html_d662094ff3bf4038be46ecff69eae30c);
+        
+
+        marker_84af38b08a1a4e338c1ffa224d34c39f.bindPopup(popup_62adbc4ffc4b430096b463fca8ff5743)
+        ;
+
+        
+    
+    
+            marker_84af38b08a1a4e338c1ffa224d34c39f.bindTooltip(
+                `<div>
+                     Flame Burger 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_740fc0a84c89483f90ab04488b1d1553 = L.marker(
+                [-27.5959, -48.5524],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_2ff5443af6fd4af389544bc992925739 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8562d807b03e4542805c7ba42764922d = $(`<div id="html_8562d807b03e4542805c7ba42764922d" style="width: 100.0%; height: 100.0%;">Burger King - Florianópolis 23584</div>`)[0];
+            popup_2ff5443af6fd4af389544bc992925739.setContent(html_8562d807b03e4542805c7ba42764922d);
+        
+
+        marker_740fc0a84c89483f90ab04488b1d1553.bindPopup(popup_2ff5443af6fd4af389544bc992925739)
+        ;
+
+        
+    
+    
+            marker_740fc0a84c89483f90ab04488b1d1553.bindTooltip(
+                `<div>
+                     Burger King - Florianópolis 23584
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4430e1d1f10e4dee8ccdbe5d00e6c2aa = L.marker(
+                [-27.591175683, -48.616987028],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_376c1e6a3f714a18b967a38954282d32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa52348eb82a47e4915a015e8e786f05 = $(`<div id="html_fa52348eb82a47e4915a015e8e786f05" style="width: 100.0%; height: 100.0%;">Fort Atacadista, Florianopolis</div>`)[0];
+            popup_376c1e6a3f714a18b967a38954282d32.setContent(html_fa52348eb82a47e4915a015e8e786f05);
+        
+
+        marker_4430e1d1f10e4dee8ccdbe5d00e6c2aa.bindPopup(popup_376c1e6a3f714a18b967a38954282d32)
+        ;
+
+        
+    
+    
+            marker_4430e1d1f10e4dee8ccdbe5d00e6c2aa.bindTooltip(
+                `<div>
+                     Fort Atacadista, Florianopolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0369f37c37f48fab913d3c8404044bd = L.marker(
+                [-27.57591558, -48.595136517],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_ab3bf9cf4b9c45b1b0a48330a39cc802 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3467f39f0f946278265d1fdc402bf98 = $(`<div id="html_a3467f39f0f946278265d1fdc402bf98" style="width: 100.0%; height: 100.0%;">Angeloni, Jardim Atlântico</div>`)[0];
+            popup_ab3bf9cf4b9c45b1b0a48330a39cc802.setContent(html_a3467f39f0f946278265d1fdc402bf98);
+        
+
+        marker_a0369f37c37f48fab913d3c8404044bd.bindPopup(popup_ab3bf9cf4b9c45b1b0a48330a39cc802)
+        ;
+
+        
+    
+    
+            marker_a0369f37c37f48fab913d3c8404044bd.bindTooltip(
+                `<div>
+                     Angeloni, Jardim Atlântico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_643e10f7dae04cbf84d8b3f2c5fa5ac1 = L.marker(
+                [-27.575122, -48.527274],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_94fc1a203a3d4dcda0c3aced1196daa7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6776db3fddd84cfa94ad4f9caa31828f = $(`<div id="html_6776db3fddd84cfa94ad4f9caa31828f" style="width: 100.0%; height: 100.0%;">Subway - Angeloni Beira Mar </div>`)[0];
+            popup_94fc1a203a3d4dcda0c3aced1196daa7.setContent(html_6776db3fddd84cfa94ad4f9caa31828f);
+        
+
+        marker_643e10f7dae04cbf84d8b3f2c5fa5ac1.bindPopup(popup_94fc1a203a3d4dcda0c3aced1196daa7)
+        ;
+
+        
+    
+    
+            marker_643e10f7dae04cbf84d8b3f2c5fa5ac1.bindTooltip(
+                `<div>
+                     Subway - Angeloni Beira Mar 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4a83f04b6f84f9197b3cc1c5cf76cc7 = L.marker(
+                [-27.5897538, -48.5152812],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_103efe17ac06466b856cdee190179ea2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95d7d78251aa4f1bbda46cb500bb1162 = $(`<div id="html_95d7d78251aa4f1bbda46cb500bb1162" style="width: 100.0%; height: 100.0%;">PANVEL, BENEVENUTA 474</div>`)[0];
+            popup_103efe17ac06466b856cdee190179ea2.setContent(html_95d7d78251aa4f1bbda46cb500bb1162);
+        
+
+        marker_b4a83f04b6f84f9197b3cc1c5cf76cc7.bindPopup(popup_103efe17ac06466b856cdee190179ea2)
+        ;
+
+        
+    
+    
+            marker_b4a83f04b6f84f9197b3cc1c5cf76cc7.bindTooltip(
+                `<div>
+                     PANVEL, BENEVENUTA 474
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89a7863b7b524f96b47161626f8b4436 = L.marker(
+                [-27.595167, -48.613957],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_e8c92c322ff14e2f8ad7fa13d6884ed1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a3b615e02de4869b8387374f06ca1ec = $(`<div id="html_9a3b615e02de4869b8387374f06ca1ec" style="width: 100.0%; height: 100.0%;">Panvel, 458</div>`)[0];
+            popup_e8c92c322ff14e2f8ad7fa13d6884ed1.setContent(html_9a3b615e02de4869b8387374f06ca1ec);
+        
+
+        marker_89a7863b7b524f96b47161626f8b4436.bindPopup(popup_e8c92c322ff14e2f8ad7fa13d6884ed1)
+        ;
+
+        
+    
+    
+            marker_89a7863b7b524f96b47161626f8b4436.bindTooltip(
+                `<div>
+                     Panvel, 458
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3a2debe7a61431a8aecde10fa3ef36a = L.marker(
+                [-27.591175683, -48.616987028],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_40461eca068e49e8a17c9ca2824f4e3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb304962368f4412a80c1a04db1f256f = $(`<div id="html_bb304962368f4412a80c1a04db1f256f" style="width: 100.0%; height: 100.0%;">Fort Atacadista, Florianopolis</div>`)[0];
+            popup_40461eca068e49e8a17c9ca2824f4e3d.setContent(html_bb304962368f4412a80c1a04db1f256f);
+        
+
+        marker_c3a2debe7a61431a8aecde10fa3ef36a.bindPopup(popup_40461eca068e49e8a17c9ca2824f4e3d)
+        ;
+
+        
+    
+    
+            marker_c3a2debe7a61431a8aecde10fa3ef36a.bindTooltip(
+                `<div>
+                     Fort Atacadista, Florianopolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_480c7c59eb7a43de817c02a6ccdf6b97 = L.marker(
+                [-27.6004238, -48.6098563],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_aef889284a8f4384b5b7becce982b098 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03c986acf6e14590a401c9f7834444bc = $(`<div id="html_03c986acf6e14590a401c9f7834444bc" style="width: 100.0%; height: 100.0%;">[F] Burger King - Av. Presidente Kennedy 26184</div>`)[0];
+            popup_aef889284a8f4384b5b7becce982b098.setContent(html_03c986acf6e14590a401c9f7834444bc);
+        
+
+        marker_480c7c59eb7a43de817c02a6ccdf6b97.bindPopup(popup_aef889284a8f4384b5b7becce982b098)
+        ;
+
+        
+    
+    
+            marker_480c7c59eb7a43de817c02a6ccdf6b97.bindTooltip(
+                `<div>
+                     [F] Burger King - Av. Presidente Kennedy 26184
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d1183a316464694a216e7112868d257 = L.marker(
+                [-27.437547, -48.398061],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_a93d1561acc543779df0abfd38a8d743 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_453e7e608947413890d7bec174908745 = $(`<div id="html_453e7e608947413890d7bec174908745" style="width: 100.0%; height: 100.0%;">Raia - Fl Ingleses A</div>`)[0];
+            popup_a93d1561acc543779df0abfd38a8d743.setContent(html_453e7e608947413890d7bec174908745);
+        
+
+        marker_8d1183a316464694a216e7112868d257.bindPopup(popup_a93d1561acc543779df0abfd38a8d743)
+        ;
+
+        
+    
+    
+            marker_8d1183a316464694a216e7112868d257.bindTooltip(
+                `<div>
+                     Raia - Fl Ingleses A
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33c11c099d334554a30db391131255e9 = L.marker(
+                [-27.6004238, -48.6098563],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_04fbfefdc60a4750acde32c8c32310db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cadb0c6bfd354fb2bcd2e4767f3f4560 = $(`<div id="html_cadb0c6bfd354fb2bcd2e4767f3f4560" style="width: 100.0%; height: 100.0%;">[F] Burger King - Av. Presidente Kennedy 26184</div>`)[0];
+            popup_04fbfefdc60a4750acde32c8c32310db.setContent(html_cadb0c6bfd354fb2bcd2e4767f3f4560);
+        
+
+        marker_33c11c099d334554a30db391131255e9.bindPopup(popup_04fbfefdc60a4750acde32c8c32310db)
+        ;
+
+        
+    
+    
+            marker_33c11c099d334554a30db391131255e9.bindTooltip(
+                `<div>
+                     [F] Burger King - Av. Presidente Kennedy 26184
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13593894e986486b8adddbb6a89e44c1 = L.marker(
+                [-27.5959, -48.5524],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_6814f6ecfde14a7095be726f845ea289 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fc7e64640a94ba59edc4c43f8ba4bb6 = $(`<div id="html_4fc7e64640a94ba59edc4c43f8ba4bb6" style="width: 100.0%; height: 100.0%;">Burger King - Florianópolis 23584</div>`)[0];
+            popup_6814f6ecfde14a7095be726f845ea289.setContent(html_4fc7e64640a94ba59edc4c43f8ba4bb6);
+        
+
+        marker_13593894e986486b8adddbb6a89e44c1.bindPopup(popup_6814f6ecfde14a7095be726f845ea289)
+        ;
+
+        
+    
+    
+            marker_13593894e986486b8adddbb6a89e44c1.bindTooltip(
+                `<div>
+                     Burger King - Florianópolis 23584
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c0ee1427e5c481f9ce6f09e4cff8110 = L.marker(
+                [-27.591175683, -48.616987028],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_d347c1a0610a4cbf8ec0eb0bacfb5fd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b7a9f1596a74ef1af75f00a240815bf = $(`<div id="html_8b7a9f1596a74ef1af75f00a240815bf" style="width: 100.0%; height: 100.0%;">Fort Atacadista, Florianopolis</div>`)[0];
+            popup_d347c1a0610a4cbf8ec0eb0bacfb5fd4.setContent(html_8b7a9f1596a74ef1af75f00a240815bf);
+        
+
+        marker_3c0ee1427e5c481f9ce6f09e4cff8110.bindPopup(popup_d347c1a0610a4cbf8ec0eb0bacfb5fd4)
+        ;
+
+        
+    
+    
+            marker_3c0ee1427e5c481f9ce6f09e4cff8110.bindTooltip(
+                `<div>
+                     Fort Atacadista, Florianopolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06213f51395e4ec2963a55871eb6e843 = L.marker(
+                [-27.593029118, -48.551624834],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_9230d1f592b345e993cd5e1d4b07e26e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8975a589a86483e8ae451236bda4cc7 = $(`<div id="html_f8975a589a86483e8ae451236bda4cc7" style="width: 100.0%; height: 100.0%;">PANVEL, OSMAR CUNHA 328</div>`)[0];
+            popup_9230d1f592b345e993cd5e1d4b07e26e.setContent(html_f8975a589a86483e8ae451236bda4cc7);
+        
+
+        marker_06213f51395e4ec2963a55871eb6e843.bindPopup(popup_9230d1f592b345e993cd5e1d4b07e26e)
+        ;
+
+        
+    
+    
+            marker_06213f51395e4ec2963a55871eb6e843.bindTooltip(
+                `<div>
+                     PANVEL, OSMAR CUNHA 328
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5812a3f4058c42ec9614aeef30eeda81 = L.marker(
+                [-27.5959, -48.5524],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_d9412e69454e47388acfb11985dcad09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4ddffaecc724a42a35a8718326bc07c = $(`<div id="html_b4ddffaecc724a42a35a8718326bc07c" style="width: 100.0%; height: 100.0%;">Burger King - Florianópolis 23584</div>`)[0];
+            popup_d9412e69454e47388acfb11985dcad09.setContent(html_b4ddffaecc724a42a35a8718326bc07c);
+        
+
+        marker_5812a3f4058c42ec9614aeef30eeda81.bindPopup(popup_d9412e69454e47388acfb11985dcad09)
+        ;
+
+        
+    
+    
+            marker_5812a3f4058c42ec9614aeef30eeda81.bindTooltip(
+                `<div>
+                     Burger King - Florianópolis 23584
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f473f3650b154625a7c947626e468052 = L.marker(
+                [-27.443885, -48.486724],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_df45c7d25cf94b9ca358e529da487f2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbe61c265ce94d318228ebf74a853b35 = $(`<div id="html_fbe61c265ce94d318228ebf74a853b35" style="width: 100.0%; height: 100.0%;">Raia - Fl Jurere A</div>`)[0];
+            popup_df45c7d25cf94b9ca358e529da487f2f.setContent(html_fbe61c265ce94d318228ebf74a853b35);
+        
+
+        marker_f473f3650b154625a7c947626e468052.bindPopup(popup_df45c7d25cf94b9ca358e529da487f2f)
+        ;
+
+        
+    
+    
+            marker_f473f3650b154625a7c947626e468052.bindTooltip(
+                `<div>
+                     Raia - Fl Jurere A
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_146b7908c20a491683e3cb5b9c075044 = L.marker(
+                [-27.5959, -48.5524],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_7967619cb5df4441b5c1b03abe0ee5af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76e02673c5b64342b5fa5d695d442256 = $(`<div id="html_76e02673c5b64342b5fa5d695d442256" style="width: 100.0%; height: 100.0%;">Burger King - Florianópolis 23584</div>`)[0];
+            popup_7967619cb5df4441b5c1b03abe0ee5af.setContent(html_76e02673c5b64342b5fa5d695d442256);
+        
+
+        marker_146b7908c20a491683e3cb5b9c075044.bindPopup(popup_7967619cb5df4441b5c1b03abe0ee5af)
+        ;
+
+        
+    
+    
+            marker_146b7908c20a491683e3cb5b9c075044.bindTooltip(
+                `<div>
+                     Burger King - Florianópolis 23584
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6cd1dff4d91b4b0e986e9ef611c2cb37 = L.marker(
+                [-27.6004238, -48.6098563],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_1369b58069b346c7a1c225bc1965401a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0663a6e3cc854fec80b0bd7466580aff = $(`<div id="html_0663a6e3cc854fec80b0bd7466580aff" style="width: 100.0%; height: 100.0%;">[F] Burger King - Av. Presidente Kennedy 26184</div>`)[0];
+            popup_1369b58069b346c7a1c225bc1965401a.setContent(html_0663a6e3cc854fec80b0bd7466580aff);
+        
+
+        marker_6cd1dff4d91b4b0e986e9ef611c2cb37.bindPopup(popup_1369b58069b346c7a1c225bc1965401a)
+        ;
+
+        
+    
+    
+            marker_6cd1dff4d91b4b0e986e9ef611c2cb37.bindTooltip(
+                `<div>
+                     [F] Burger King - Av. Presidente Kennedy 26184
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9112f2ba6b7247358c6f0511e0d26bd7 = L.marker(
+                [-27.5937424, -48.5212917],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_0d00197fa5f642e880cc8267f547b628 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2537d6e5abb40ae9eea1bf657b29ef1 = $(`<div id="html_a2537d6e5abb40ae9eea1bf657b29ef1" style="width: 100.0%; height: 100.0%;">Panvel, 481</div>`)[0];
+            popup_0d00197fa5f642e880cc8267f547b628.setContent(html_a2537d6e5abb40ae9eea1bf657b29ef1);
+        
+
+        marker_9112f2ba6b7247358c6f0511e0d26bd7.bindPopup(popup_0d00197fa5f642e880cc8267f547b628)
+        ;
+
+        
+    
+    
+            marker_9112f2ba6b7247358c6f0511e0d26bd7.bindTooltip(
+                `<div>
+                     Panvel, 481
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_423a7e87f096428cad19cb937c9c8e50 = L.marker(
+                [-27.591175683, -48.616987028],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_fbb6854085194c5cb6cd55359d151d0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ef92a24b51a4554bbfe779121409c20 = $(`<div id="html_8ef92a24b51a4554bbfe779121409c20" style="width: 100.0%; height: 100.0%;">Fort Atacadista, Florianopolis</div>`)[0];
+            popup_fbb6854085194c5cb6cd55359d151d0c.setContent(html_8ef92a24b51a4554bbfe779121409c20);
+        
+
+        marker_423a7e87f096428cad19cb937c9c8e50.bindPopup(popup_fbb6854085194c5cb6cd55359d151d0c)
+        ;
+
+        
+    
+    
+            marker_423a7e87f096428cad19cb937c9c8e50.bindTooltip(
+                `<div>
+                     Fort Atacadista, Florianopolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7cc8d7dc02b4f8db8b29b0364f5f05c = L.marker(
+                [-27.578396984, -48.510243372],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_4ece4f34a41242c6a66918cc7def9b7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58146fd143ae43659159e9d241692275 = $(`<div id="html_58146fd143ae43659159e9d241692275" style="width: 100.0%; height: 100.0%;">Panvel, Admar Gonzaga</div>`)[0];
+            popup_4ece4f34a41242c6a66918cc7def9b7f.setContent(html_58146fd143ae43659159e9d241692275);
+        
+
+        marker_d7cc8d7dc02b4f8db8b29b0364f5f05c.bindPopup(popup_4ece4f34a41242c6a66918cc7def9b7f)
+        ;
+
+        
+    
+    
+            marker_d7cc8d7dc02b4f8db8b29b0364f5f05c.bindTooltip(
+                `<div>
+                     Panvel, Admar Gonzaga
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c44315f9add9420ab5c0884441333d3d = L.marker(
+                [-27.5887723, -48.557791],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_e6d7736399204329b972609f5b4622bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd726a9c99354dfdb990fb667f8f5bc0 = $(`<div id="html_cd726a9c99354dfdb990fb667f8f5bc0" style="width: 100.0%; height: 100.0%;">Droga Raia, Rubéns de Arruda (Florianópolis)</div>`)[0];
+            popup_e6d7736399204329b972609f5b4622bf.setContent(html_cd726a9c99354dfdb990fb667f8f5bc0);
+        
+
+        marker_c44315f9add9420ab5c0884441333d3d.bindPopup(popup_e6d7736399204329b972609f5b4622bf)
+        ;
+
+        
+    
+    
+            marker_c44315f9add9420ab5c0884441333d3d.bindTooltip(
+                `<div>
+                     Droga Raia, Rubéns de Arruda (Florianópolis)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c6257b44d2d4cfbada58f0c46181e8b = L.marker(
+                [-27.591175683, -48.616987028],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_d9c8b9463048490e93d1a281f851de89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89b22797b9074180820af35355d9467c = $(`<div id="html_89b22797b9074180820af35355d9467c" style="width: 100.0%; height: 100.0%;">Fort Atacadista, Florianopolis</div>`)[0];
+            popup_d9c8b9463048490e93d1a281f851de89.setContent(html_89b22797b9074180820af35355d9467c);
+        
+
+        marker_9c6257b44d2d4cfbada58f0c46181e8b.bindPopup(popup_d9c8b9463048490e93d1a281f851de89)
+        ;
+
+        
+    
+    
+            marker_9c6257b44d2d4cfbada58f0c46181e8b.bindTooltip(
+                `<div>
+                     Fort Atacadista, Florianopolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd726b4091be48d5b95d873a29af953d = L.marker(
+                [-27.5967916, -48.5528644],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_b4e7b41409934b66a8ca425eb0f45351 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_defe7ed79d1b4e08bfde94d13c2f5217 = $(`<div id="html_defe7ed79d1b4e08bfde94d13c2f5217" style="width: 100.0%; height: 100.0%;">Panvel, 448</div>`)[0];
+            popup_b4e7b41409934b66a8ca425eb0f45351.setContent(html_defe7ed79d1b4e08bfde94d13c2f5217);
+        
+
+        marker_dd726b4091be48d5b95d873a29af953d.bindPopup(popup_b4e7b41409934b66a8ca425eb0f45351)
+        ;
+
+        
+    
+    
+            marker_dd726b4091be48d5b95d873a29af953d.bindTooltip(
+                `<div>
+                     Panvel, 448
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4c9b21b10b2f4e638d4d2f9fb049ed4a = L.marker(
+                [-27.5708984, -48.6053424],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_b64fe9a2224046e38ab0e9111445ee5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e54e827b6c541cf97a974e7b755463e = $(`<div id="html_7e54e827b6c541cf97a974e7b755463e" style="width: 100.0%; height: 100.0%;">Pague Menos, SJO02-Barreiro-SC, 0332</div>`)[0];
+            popup_b64fe9a2224046e38ab0e9111445ee5f.setContent(html_7e54e827b6c541cf97a974e7b755463e);
+        
+
+        marker_4c9b21b10b2f4e638d4d2f9fb049ed4a.bindPopup(popup_b64fe9a2224046e38ab0e9111445ee5f)
+        ;
+
+        
+    
+    
+            marker_4c9b21b10b2f4e638d4d2f9fb049ed4a.bindTooltip(
+                `<div>
+                     Pague Menos, SJO02-Barreiro-SC, 0332
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c93053b0df64ebfbaecbf09e72bdb9d = L.marker(
+                [-27.58988538, -48.51499748],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_3d0069b7bf6f4c7b952df6c2edbaba0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71b12522016d41ad8f132ed3b112c21a = $(`<div id="html_71b12522016d41ad8f132ed3b112c21a" style="width: 100.0%; height: 100.0%;">Big, Iguatemi (Florianópolis)</div>`)[0];
+            popup_3d0069b7bf6f4c7b952df6c2edbaba0f.setContent(html_71b12522016d41ad8f132ed3b112c21a);
+        
+
+        marker_8c93053b0df64ebfbaecbf09e72bdb9d.bindPopup(popup_3d0069b7bf6f4c7b952df6c2edbaba0f)
+        ;
+
+        
+    
+    
+            marker_8c93053b0df64ebfbaecbf09e72bdb9d.bindTooltip(
+                `<div>
+                     Big, Iguatemi (Florianópolis)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cfbd571a5b2d4d05a3015c1a4acc059a = L.marker(
+                [-27.5748989, -48.5273927],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_a86e43ca6fc845529b31c97ab4f144e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e5de635f79b42eba364cc8e756bbcec = $(`<div id="html_8e5de635f79b42eba364cc8e756bbcec" style="width: 100.0%; height: 100.0%;">Angeloni</div>`)[0];
+            popup_a86e43ca6fc845529b31c97ab4f144e9.setContent(html_8e5de635f79b42eba364cc8e756bbcec);
+        
+
+        marker_cfbd571a5b2d4d05a3015c1a4acc059a.bindPopup(popup_a86e43ca6fc845529b31c97ab4f144e9)
+        ;
+
+        
+    
+    
+            marker_cfbd571a5b2d4d05a3015c1a4acc059a.bindTooltip(
+                `<div>
+                     Angeloni
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73e6d8d3e9d64a219a7a85a88fee9352 = L.marker(
+                [-27.581229, -48.5840342],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_16caac7b602848e9bdea4f256122cb24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3dec4e6f7174475d8a88fe3477bb6241 = $(`<div id="html_3dec4e6f7174475d8a88fe3477bb6241" style="width: 100.0%; height: 100.0%;">Flame Burger </div>`)[0];
+            popup_16caac7b602848e9bdea4f256122cb24.setContent(html_3dec4e6f7174475d8a88fe3477bb6241);
+        
+
+        marker_73e6d8d3e9d64a219a7a85a88fee9352.bindPopup(popup_16caac7b602848e9bdea4f256122cb24)
+        ;
+
+        
+    
+    
+            marker_73e6d8d3e9d64a219a7a85a88fee9352.bindTooltip(
+                `<div>
+                     Flame Burger 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_986b77bcbfd84d6ea2d0b1a143bf2511 = L.marker(
+                [-27.5442602, -48.5020995],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_c0192984109749f49f29b614ce37c6b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_430d329147454524877f2580ef774b6e = $(`<div id="html_430d329147454524877f2580ef774b6e" style="width: 100.0%; height: 100.0%;">Droga Raia, SACO GRANDE</div>`)[0];
+            popup_c0192984109749f49f29b614ce37c6b9.setContent(html_430d329147454524877f2580ef774b6e);
+        
+
+        marker_986b77bcbfd84d6ea2d0b1a143bf2511.bindPopup(popup_c0192984109749f49f29b614ce37c6b9)
+        ;
+
+        
+    
+    
+            marker_986b77bcbfd84d6ea2d0b1a143bf2511.bindTooltip(
+                `<div>
+                     Droga Raia, SACO GRANDE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5a1e7d4fa5644c99dab972161d9920f = L.marker(
+                [-27.57591558, -48.595136517],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_5c1cec2f946844ecac596699c62279aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5aefd72907d48afbb38343e335fcce5 = $(`<div id="html_d5aefd72907d48afbb38343e335fcce5" style="width: 100.0%; height: 100.0%;">Angeloni, Jardim Atlântico</div>`)[0];
+            popup_5c1cec2f946844ecac596699c62279aa.setContent(html_d5aefd72907d48afbb38343e335fcce5);
+        
+
+        marker_d5a1e7d4fa5644c99dab972161d9920f.bindPopup(popup_5c1cec2f946844ecac596699c62279aa)
+        ;
+
+        
+    
+    
+            marker_d5a1e7d4fa5644c99dab972161d9920f.bindTooltip(
+                `<div>
+                     Angeloni, Jardim Atlântico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be77e83b6891478c97b11ff75b588308 = L.marker(
+                [-27.5887723, -48.557791],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_28e1e466adfc49f58dc0f16e69b04409 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4bbd1f4840994dec8cfbb1f057a0413c = $(`<div id="html_4bbd1f4840994dec8cfbb1f057a0413c" style="width: 100.0%; height: 100.0%;">Droga Raia, Rubéns de Arruda (Florianópolis)</div>`)[0];
+            popup_28e1e466adfc49f58dc0f16e69b04409.setContent(html_4bbd1f4840994dec8cfbb1f057a0413c);
+        
+
+        marker_be77e83b6891478c97b11ff75b588308.bindPopup(popup_28e1e466adfc49f58dc0f16e69b04409)
+        ;
+
+        
+    
+    
+            marker_be77e83b6891478c97b11ff75b588308.bindTooltip(
+                `<div>
+                     Droga Raia, Rubéns de Arruda (Florianópolis)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_38e0777193d64551aa6fccbc436df348 = L.marker(
+                [-27.5897538, -48.5152812],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_484f0617596f4a578c1cf41c5b7986ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5faf7a28828e4ee4af4b9921a8b8a41a = $(`<div id="html_5faf7a28828e4ee4af4b9921a8b8a41a" style="width: 100.0%; height: 100.0%;">Spoleto - Villa Romana </div>`)[0];
+            popup_484f0617596f4a578c1cf41c5b7986ab.setContent(html_5faf7a28828e4ee4af4b9921a8b8a41a);
+        
+
+        marker_38e0777193d64551aa6fccbc436df348.bindPopup(popup_484f0617596f4a578c1cf41c5b7986ab)
+        ;
+
+        
+    
+    
+            marker_38e0777193d64551aa6fccbc436df348.bindTooltip(
+                `<div>
+                     Spoleto - Villa Romana 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24f90d56ab024c46827f1bda20a74b3f = L.marker(
+                [-27.581229, -48.5840342],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_b4838dc80fd44d7c82c5f4ef5748a271 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a3cc262b44542dfbaa1c295ad0bdc43 = $(`<div id="html_5a3cc262b44542dfbaa1c295ad0bdc43" style="width: 100.0%; height: 100.0%;">Flame Burger </div>`)[0];
+            popup_b4838dc80fd44d7c82c5f4ef5748a271.setContent(html_5a3cc262b44542dfbaa1c295ad0bdc43);
+        
+
+        marker_24f90d56ab024c46827f1bda20a74b3f.bindPopup(popup_b4838dc80fd44d7c82c5f4ef5748a271)
+        ;
+
+        
+    
+    
+            marker_24f90d56ab024c46827f1bda20a74b3f.bindTooltip(
+                `<div>
+                     Flame Burger 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84d9cb77eb684b44b0f812a3beaf5921 = L.marker(
+                [-27.443885, -48.486724],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_5892c6c6cae6434599a0a74f5b33e2d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be3e6be5d33d440f8353855f4186689d = $(`<div id="html_be3e6be5d33d440f8353855f4186689d" style="width: 100.0%; height: 100.0%;">Raia - Fl Jurere A</div>`)[0];
+            popup_5892c6c6cae6434599a0a74f5b33e2d8.setContent(html_be3e6be5d33d440f8353855f4186689d);
+        
+
+        marker_84d9cb77eb684b44b0f812a3beaf5921.bindPopup(popup_5892c6c6cae6434599a0a74f5b33e2d8)
+        ;
+
+        
+    
+    
+            marker_84d9cb77eb684b44b0f812a3beaf5921.bindTooltip(
+                `<div>
+                     Raia - Fl Jurere A
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_670c472cc830410bacdf8d93ff8a85bc = L.marker(
+                [-27.5948732, -48.6139025],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_4a48bf53515644f5966f0c5e52426e33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25a07e1e4c31465fa42dd89cacc860d9 = $(`<div id="html_25a07e1e4c31465fa42dd89cacc860d9" style="width: 100.0%; height: 100.0%;">Raia, Kobrasol</div>`)[0];
+            popup_4a48bf53515644f5966f0c5e52426e33.setContent(html_25a07e1e4c31465fa42dd89cacc860d9);
+        
+
+        marker_670c472cc830410bacdf8d93ff8a85bc.bindPopup(popup_4a48bf53515644f5966f0c5e52426e33)
+        ;
+
+        
+    
+    
+            marker_670c472cc830410bacdf8d93ff8a85bc.bindTooltip(
+                `<div>
+                     Raia, Kobrasol
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9bab94ea4404305a82dea88a09e839a = L.marker(
+                [-27.58988538, -48.51499748],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_b956dbb5fc3c41b0b2adef9cc732def6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_263a19e12f5848b8b85d48f24d905855 = $(`<div id="html_263a19e12f5848b8b85d48f24d905855" style="width: 100.0%; height: 100.0%;">Big, Iguatemi (Florianópolis)</div>`)[0];
+            popup_b956dbb5fc3c41b0b2adef9cc732def6.setContent(html_263a19e12f5848b8b85d48f24d905855);
+        
+
+        marker_b9bab94ea4404305a82dea88a09e839a.bindPopup(popup_b956dbb5fc3c41b0b2adef9cc732def6)
+        ;
+
+        
+    
+    
+            marker_b9bab94ea4404305a82dea88a09e839a.bindTooltip(
+                `<div>
+                     Big, Iguatemi (Florianópolis)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e2da3181b3c4a4aa1a0a4817aac18c3 = L.marker(
+                [-27.5959, -48.5524],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_18e2a7187684495c991c53afa4836f6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e98e89dcd0674a9e873cb9f32efbe7d0 = $(`<div id="html_e98e89dcd0674a9e873cb9f32efbe7d0" style="width: 100.0%; height: 100.0%;">Burger King - Florianópolis 23584</div>`)[0];
+            popup_18e2a7187684495c991c53afa4836f6f.setContent(html_e98e89dcd0674a9e873cb9f32efbe7d0);
+        
+
+        marker_4e2da3181b3c4a4aa1a0a4817aac18c3.bindPopup(popup_18e2a7187684495c991c53afa4836f6f)
+        ;
+
+        
+    
+    
+            marker_4e2da3181b3c4a4aa1a0a4817aac18c3.bindTooltip(
+                `<div>
+                     Burger King - Florianópolis 23584
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e8fc66401abf4a79b7232511fb8356b2 = L.marker(
+                [-27.6004238, -48.6098563],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_9d86c9726b514c75919677868ac139c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66d9e52ef83949f4943106d7240a56f5 = $(`<div id="html_66d9e52ef83949f4943106d7240a56f5" style="width: 100.0%; height: 100.0%;">[F] Burger King - Av. Presidente Kennedy 26184</div>`)[0];
+            popup_9d86c9726b514c75919677868ac139c4.setContent(html_66d9e52ef83949f4943106d7240a56f5);
+        
+
+        marker_e8fc66401abf4a79b7232511fb8356b2.bindPopup(popup_9d86c9726b514c75919677868ac139c4)
+        ;
+
+        
+    
+    
+            marker_e8fc66401abf4a79b7232511fb8356b2.bindTooltip(
+                `<div>
+                     [F] Burger King - Av. Presidente Kennedy 26184
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13e3085954584333ab1455b3248b31a9 = L.marker(
+                [-27.57591558, -48.595136517],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_baf861abe2364e9883c0a1299235cb58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_395049b3e49545c78076a37f8704dd7d = $(`<div id="html_395049b3e49545c78076a37f8704dd7d" style="width: 100.0%; height: 100.0%;">Angeloni, Jardim Atlântico</div>`)[0];
+            popup_baf861abe2364e9883c0a1299235cb58.setContent(html_395049b3e49545c78076a37f8704dd7d);
+        
+
+        marker_13e3085954584333ab1455b3248b31a9.bindPopup(popup_baf861abe2364e9883c0a1299235cb58)
+        ;
+
+        
+    
+    
+            marker_13e3085954584333ab1455b3248b31a9.bindTooltip(
+                `<div>
+                     Angeloni, Jardim Atlântico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_035287e3001143968f485001fb11fd17 = L.marker(
+                [-27.6004238, -48.6098563],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_c3f3ae81cb7948b6a914e4569a61e391 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ccd66860f5c423294077825798fca68 = $(`<div id="html_0ccd66860f5c423294077825798fca68" style="width: 100.0%; height: 100.0%;">[F] Burger King - Av. Presidente Kennedy 26184</div>`)[0];
+            popup_c3f3ae81cb7948b6a914e4569a61e391.setContent(html_0ccd66860f5c423294077825798fca68);
+        
+
+        marker_035287e3001143968f485001fb11fd17.bindPopup(popup_c3f3ae81cb7948b6a914e4569a61e391)
+        ;
+
+        
+    
+    
+            marker_035287e3001143968f485001fb11fd17.bindTooltip(
+                `<div>
+                     [F] Burger King - Av. Presidente Kennedy 26184
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a1f408c517ba4d07955dbac914afc8f2 = L.marker(
+                [-27.6004238, -48.6098563],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_cdf11cfdb99a484984520f74c341630d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd4d1100683d48269fa8153d389c37ed = $(`<div id="html_cd4d1100683d48269fa8153d389c37ed" style="width: 100.0%; height: 100.0%;">[F] Burger King - Av. Presidente Kennedy 26184</div>`)[0];
+            popup_cdf11cfdb99a484984520f74c341630d.setContent(html_cd4d1100683d48269fa8153d389c37ed);
+        
+
+        marker_a1f408c517ba4d07955dbac914afc8f2.bindPopup(popup_cdf11cfdb99a484984520f74c341630d)
+        ;
+
+        
+    
+    
+            marker_a1f408c517ba4d07955dbac914afc8f2.bindTooltip(
+                `<div>
+                     [F] Burger King - Av. Presidente Kennedy 26184
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f560200deb546a0befd5a1207ec4c1d = L.marker(
+                [-27.587290502, -48.542845678],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_00cdf73e145943728c8fe1e74e7d329c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_255725b452804fc2960021cb11a74a94 = $(`<div id="html_255725b452804fc2960021cb11a74a94" style="width: 100.0%; height: 100.0%;">PETZ FLORIANÓPOLIS CENTRO</div>`)[0];
+            popup_00cdf73e145943728c8fe1e74e7d329c.setContent(html_255725b452804fc2960021cb11a74a94);
+        
+
+        marker_3f560200deb546a0befd5a1207ec4c1d.bindPopup(popup_00cdf73e145943728c8fe1e74e7d329c)
+        ;
+
+        
+    
+    
+            marker_3f560200deb546a0befd5a1207ec4c1d.bindTooltip(
+                `<div>
+                     PETZ FLORIANÓPOLIS CENTRO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e6f529b06584169887e45eace377329 = L.marker(
+                [-27.586242, -48.545089],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_4fa4dd91bb5642ea842082231fd33db5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03eb0bddbc4a48eab4c762072cd179cd = $(`<div id="html_03eb0bddbc4a48eab4c762072cd179cd" style="width: 100.0%; height: 100.0%;">Droga Raia, Florianopolis, B</div>`)[0];
+            popup_4fa4dd91bb5642ea842082231fd33db5.setContent(html_03eb0bddbc4a48eab4c762072cd179cd);
+        
+
+        marker_1e6f529b06584169887e45eace377329.bindPopup(popup_4fa4dd91bb5642ea842082231fd33db5)
+        ;
+
+        
+    
+    
+            marker_1e6f529b06584169887e45eace377329.bindTooltip(
+                `<div>
+                     Droga Raia, Florianopolis, B
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ca3f510994640e1af4a47624c1f2998 = L.marker(
+                [-27.5959, -48.5524],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_30b1651c9a9d48798c0bb958bba16687 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e279290409764df29cb43401e09e2f02 = $(`<div id="html_e279290409764df29cb43401e09e2f02" style="width: 100.0%; height: 100.0%;">Burger King - Florianópolis 23584</div>`)[0];
+            popup_30b1651c9a9d48798c0bb958bba16687.setContent(html_e279290409764df29cb43401e09e2f02);
+        
+
+        marker_7ca3f510994640e1af4a47624c1f2998.bindPopup(popup_30b1651c9a9d48798c0bb958bba16687)
+        ;
+
+        
+    
+    
+            marker_7ca3f510994640e1af4a47624c1f2998.bindTooltip(
+                `<div>
+                     Burger King - Florianópolis 23584
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5d40c45bb60437aa0f7437bfce415cf = L.marker(
+                [-27.5442602, -48.5020995],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_0920b24840e440b2a883f4f38d6028ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf6b33aed7e448918d9ad9c7c9fc1637 = $(`<div id="html_bf6b33aed7e448918d9ad9c7c9fc1637" style="width: 100.0%; height: 100.0%;">Droga Raia, SACO GRANDE</div>`)[0];
+            popup_0920b24840e440b2a883f4f38d6028ec.setContent(html_bf6b33aed7e448918d9ad9c7c9fc1637);
+        
+
+        marker_b5d40c45bb60437aa0f7437bfce415cf.bindPopup(popup_0920b24840e440b2a883f4f38d6028ec)
+        ;
+
+        
+    
+    
+            marker_b5d40c45bb60437aa0f7437bfce415cf.bindTooltip(
+                `<div>
+                     Droga Raia, SACO GRANDE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2272999f656241c4be5013afd99c69ea = L.marker(
+                [-27.443885, -48.486724],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_3a6014505699439299a70339f48b85e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f0b9ee2bba04392a861da0d1146b567 = $(`<div id="html_3f0b9ee2bba04392a861da0d1146b567" style="width: 100.0%; height: 100.0%;">Raia - Fl Jurere A</div>`)[0];
+            popup_3a6014505699439299a70339f48b85e8.setContent(html_3f0b9ee2bba04392a861da0d1146b567);
+        
+
+        marker_2272999f656241c4be5013afd99c69ea.bindPopup(popup_3a6014505699439299a70339f48b85e8)
+        ;
+
+        
+    
+    
+            marker_2272999f656241c4be5013afd99c69ea.bindTooltip(
+                `<div>
+                     Raia - Fl Jurere A
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3536668785764fbf88235edee3a96c54 = L.marker(
+                [-27.591175683, -48.616987028],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_ea253091e02f4d378d6050c1588879ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2eac41ed3f694800a1ca02c3e44ba906 = $(`<div id="html_2eac41ed3f694800a1ca02c3e44ba906" style="width: 100.0%; height: 100.0%;">Fort Atacadista, Florianopolis</div>`)[0];
+            popup_ea253091e02f4d378d6050c1588879ab.setContent(html_2eac41ed3f694800a1ca02c3e44ba906);
+        
+
+        marker_3536668785764fbf88235edee3a96c54.bindPopup(popup_ea253091e02f4d378d6050c1588879ab)
+        ;
+
+        
+    
+    
+            marker_3536668785764fbf88235edee3a96c54.bindTooltip(
+                `<div>
+                     Fort Atacadista, Florianopolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ef2df365741453ca4602f239b1ed7e1 = L.marker(
+                [-27.6004238, -48.6098563],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_a78bdff0f25a406cb6765b3a058419e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2046c6a47f934fd0a70e4028fc114f5d = $(`<div id="html_2046c6a47f934fd0a70e4028fc114f5d" style="width: 100.0%; height: 100.0%;">[F] Burger King - Av. Presidente Kennedy 26184</div>`)[0];
+            popup_a78bdff0f25a406cb6765b3a058419e2.setContent(html_2046c6a47f934fd0a70e4028fc114f5d);
+        
+
+        marker_4ef2df365741453ca4602f239b1ed7e1.bindPopup(popup_a78bdff0f25a406cb6765b3a058419e2)
+        ;
+
+        
+    
+    
+            marker_4ef2df365741453ca4602f239b1ed7e1.bindTooltip(
+                `<div>
+                     [F] Burger King - Av. Presidente Kennedy 26184
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e041a3e4119448bc8f3422c9b8a1c617 = L.marker(
+                [-27.590103, -48.546579],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_af71a1e3080e40bdae7b10f5f0194727 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a13fdbfe53bf4ed1af41a0790869cb87 = $(`<div id="html_a13fdbfe53bf4ed1af41a0790869cb87" style="width: 100.0%; height: 100.0%;">Hippo</div>`)[0];
+            popup_af71a1e3080e40bdae7b10f5f0194727.setContent(html_a13fdbfe53bf4ed1af41a0790869cb87);
+        
+
+        marker_e041a3e4119448bc8f3422c9b8a1c617.bindPopup(popup_af71a1e3080e40bdae7b10f5f0194727)
+        ;
+
+        
+    
+    
+            marker_e041a3e4119448bc8f3422c9b8a1c617.bindTooltip(
+                `<div>
+                     Hippo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_110d3beae55e42d786e6659a4f899628 = L.marker(
+                [-27.58988538, -48.51499748],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_90a9ec4ecb5749d68ffadb3d2c20464a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d71e2a00792a4475b9635aa995165a8f = $(`<div id="html_d71e2a00792a4475b9635aa995165a8f" style="width: 100.0%; height: 100.0%;">Big, Iguatemi (Florianópolis)</div>`)[0];
+            popup_90a9ec4ecb5749d68ffadb3d2c20464a.setContent(html_d71e2a00792a4475b9635aa995165a8f);
+        
+
+        marker_110d3beae55e42d786e6659a4f899628.bindPopup(popup_90a9ec4ecb5749d68ffadb3d2c20464a)
+        ;
+
+        
+    
+    
+            marker_110d3beae55e42d786e6659a4f899628.bindTooltip(
+                `<div>
+                     Big, Iguatemi (Florianópolis)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0df84d1d25ec472c9e89f3c2e9aea472 = L.marker(
+                [-27.58919, -48.507714],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_5bb0092bc48c46adbce952ed611e1aeb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d72c772c9694102916be53b64ab5aa5 = $(`<div id="html_6d72c772c9694102916be53b64ab5aa5" style="width: 100.0%; height: 100.0%;">Droga Raia, Santa Monica (Florianópolis)</div>`)[0];
+            popup_5bb0092bc48c46adbce952ed611e1aeb.setContent(html_6d72c772c9694102916be53b64ab5aa5);
+        
+
+        marker_0df84d1d25ec472c9e89f3c2e9aea472.bindPopup(popup_5bb0092bc48c46adbce952ed611e1aeb)
+        ;
+
+        
+    
+    
+            marker_0df84d1d25ec472c9e89f3c2e9aea472.bindTooltip(
+                `<div>
+                     Droga Raia, Santa Monica (Florianópolis)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cad3e02398f94f05b5adebbc7aeadbcb = L.marker(
+                [-27.437547, -48.398061],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_61addd20ae944c869e1ff54f7a2235ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53ee9307c2db445a81ffa0abbd2536c5 = $(`<div id="html_53ee9307c2db445a81ffa0abbd2536c5" style="width: 100.0%; height: 100.0%;">Raia - Fl Ingleses A</div>`)[0];
+            popup_61addd20ae944c869e1ff54f7a2235ca.setContent(html_53ee9307c2db445a81ffa0abbd2536c5);
+        
+
+        marker_cad3e02398f94f05b5adebbc7aeadbcb.bindPopup(popup_61addd20ae944c869e1ff54f7a2235ca)
+        ;
+
+        
+    
+    
+            marker_cad3e02398f94f05b5adebbc7aeadbcb.bindTooltip(
+                `<div>
+                     Raia - Fl Ingleses A
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aadf7e6e08f04de6a48db4bebd0ff15e = L.marker(
+                [-27.5971692, -48.5500767],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_29703bc228e84638b42fc03299b1b196 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d595d8e4f0244070a3b7957eb947cb16 = $(`<div id="html_d595d8e4f0244070a3b7957eb947cb16" style="width: 100.0%; height: 100.0%;">Panvel, 104</div>`)[0];
+            popup_29703bc228e84638b42fc03299b1b196.setContent(html_d595d8e4f0244070a3b7957eb947cb16);
+        
+
+        marker_aadf7e6e08f04de6a48db4bebd0ff15e.bindPopup(popup_29703bc228e84638b42fc03299b1b196)
+        ;
+
+        
+    
+    
+            marker_aadf7e6e08f04de6a48db4bebd0ff15e.bindTooltip(
+                `<div>
+                     Panvel, 104
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dfafdf33cde444c58b5302ea7eb0b54b = L.marker(
+                [-27.5937424, -48.5212917],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_da75852558d543b7b49a81998986e49f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b243cc6813d48b48487ade531e0553a = $(`<div id="html_2b243cc6813d48b48487ade531e0553a" style="width: 100.0%; height: 100.0%;">Panvel, 481</div>`)[0];
+            popup_da75852558d543b7b49a81998986e49f.setContent(html_2b243cc6813d48b48487ade531e0553a);
+        
+
+        marker_dfafdf33cde444c58b5302ea7eb0b54b.bindPopup(popup_da75852558d543b7b49a81998986e49f)
+        ;
+
+        
+    
+    
+            marker_dfafdf33cde444c58b5302ea7eb0b54b.bindTooltip(
+                `<div>
+                     Panvel, 481
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82a2d7f76821416cab539109619ef731 = L.marker(
+                [-27.598263, -48.592488],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_21d666e9b7a94e7089e4a215b02258d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1f3c851091b4d03adc3857cf12dfe35 = $(`<div id="html_b1f3c851091b4d03adc3857cf12dfe35" style="width: 100.0%; height: 100.0%;">Nossa Casa Churrascaria - Capoeiras</div>`)[0];
+            popup_21d666e9b7a94e7089e4a215b02258d3.setContent(html_b1f3c851091b4d03adc3857cf12dfe35);
+        
+
+        marker_82a2d7f76821416cab539109619ef731.bindPopup(popup_21d666e9b7a94e7089e4a215b02258d3)
+        ;
+
+        
+    
+    
+            marker_82a2d7f76821416cab539109619ef731.bindTooltip(
+                `<div>
+                     Nossa Casa Churrascaria - Capoeiras
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8fb7ecb4dd1843af8c671302a00c3d1e = L.marker(
+                [-27.591175683, -48.616987028],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_c0dc928fd2b04bb9a030a43c3384b57c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37a4edc0b73f42a086215a7efbb06c2a = $(`<div id="html_37a4edc0b73f42a086215a7efbb06c2a" style="width: 100.0%; height: 100.0%;">Fort Atacadista, Florianopolis</div>`)[0];
+            popup_c0dc928fd2b04bb9a030a43c3384b57c.setContent(html_37a4edc0b73f42a086215a7efbb06c2a);
+        
+
+        marker_8fb7ecb4dd1843af8c671302a00c3d1e.bindPopup(popup_c0dc928fd2b04bb9a030a43c3384b57c)
+        ;
+
+        
+    
+    
+            marker_8fb7ecb4dd1843af8c671302a00c3d1e.bindTooltip(
+                `<div>
+                     Fort Atacadista, Florianopolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_08f9e769c2c045279cebf496dea2d115 = L.marker(
+                [-27.584154, -48.583525],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_17684f596ca143bc99865d5dba8538af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02bab720fb7e47709247cfb926d8b35b = $(`<div id="html_02bab720fb7e47709247cfb926d8b35b" style="width: 100.0%; height: 100.0%;">Droga Raia, BALNEÁRIO</div>`)[0];
+            popup_17684f596ca143bc99865d5dba8538af.setContent(html_02bab720fb7e47709247cfb926d8b35b);
+        
+
+        marker_08f9e769c2c045279cebf496dea2d115.bindPopup(popup_17684f596ca143bc99865d5dba8538af)
+        ;
+
+        
+    
+    
+            marker_08f9e769c2c045279cebf496dea2d115.bindTooltip(
+                `<div>
+                     Droga Raia, BALNEÁRIO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_463c75f1f8c349b6b836e8a3d30b367a = L.marker(
+                [-27.6015513, -48.5168279],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_baf8091e4064434facdd14b9a19d6f8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7124ab5315a4d90a8818496afe5c09d = $(`<div id="html_e7124ab5315a4d90a8818496afe5c09d" style="width: 100.0%; height: 100.0%;">Hello Donuts - Floripa</div>`)[0];
+            popup_baf8091e4064434facdd14b9a19d6f8c.setContent(html_e7124ab5315a4d90a8818496afe5c09d);
+        
+
+        marker_463c75f1f8c349b6b836e8a3d30b367a.bindPopup(popup_baf8091e4064434facdd14b9a19d6f8c)
+        ;
+
+        
+    
+    
+            marker_463c75f1f8c349b6b836e8a3d30b367a.bindTooltip(
+                `<div>
+                     Hello Donuts - Floripa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f188763be3ef4150a158f8c5c9174603 = L.marker(
+                [-27.591175683, -48.616987028],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_5fa694a69a324e27a840539cbca04ba7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9b89bea1c094b739d86d6dbb5136836 = $(`<div id="html_b9b89bea1c094b739d86d6dbb5136836" style="width: 100.0%; height: 100.0%;">Fort Atacadista, Florianopolis</div>`)[0];
+            popup_5fa694a69a324e27a840539cbca04ba7.setContent(html_b9b89bea1c094b739d86d6dbb5136836);
+        
+
+        marker_f188763be3ef4150a158f8c5c9174603.bindPopup(popup_5fa694a69a324e27a840539cbca04ba7)
+        ;
+
+        
+    
+    
+            marker_f188763be3ef4150a158f8c5c9174603.bindTooltip(
+                `<div>
+                     Fort Atacadista, Florianopolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_403a9bc342bd48419ab8c15dfc43b07e = L.marker(
+                [-27.591175683, -48.616987028],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_a57e0d10403a4f178f568688459cfbc1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3d4602d089d47139f4d433cab0554e8 = $(`<div id="html_c3d4602d089d47139f4d433cab0554e8" style="width: 100.0%; height: 100.0%;">Fort Atacadista, Florianopolis</div>`)[0];
+            popup_a57e0d10403a4f178f568688459cfbc1.setContent(html_c3d4602d089d47139f4d433cab0554e8);
+        
+
+        marker_403a9bc342bd48419ab8c15dfc43b07e.bindPopup(popup_a57e0d10403a4f178f568688459cfbc1)
+        ;
+
+        
+    
+    
+            marker_403a9bc342bd48419ab8c15dfc43b07e.bindTooltip(
+                `<div>
+                     Fort Atacadista, Florianopolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_77e884ceb1a740a5b1bb9cd9bed00f78 = L.marker(
+                [-27.443885, -48.486724],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_5659a3a375124679a18d3582156b2819 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad27aa67918f4b9ea472dee95c80c49a = $(`<div id="html_ad27aa67918f4b9ea472dee95c80c49a" style="width: 100.0%; height: 100.0%;">Raia - Fl Jurere A</div>`)[0];
+            popup_5659a3a375124679a18d3582156b2819.setContent(html_ad27aa67918f4b9ea472dee95c80c49a);
+        
+
+        marker_77e884ceb1a740a5b1bb9cd9bed00f78.bindPopup(popup_5659a3a375124679a18d3582156b2819)
+        ;
+
+        
+    
+    
+            marker_77e884ceb1a740a5b1bb9cd9bed00f78.bindTooltip(
+                `<div>
+                     Raia - Fl Jurere A
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd0b58e2b8ad42bcb5e9dee1d29d27d6 = L.marker(
+                [-27.5708984, -48.6053424],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_a136c7b6d2084863936c0927f9645087 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34811c147b8e4b93badbd5faedbf3928 = $(`<div id="html_34811c147b8e4b93badbd5faedbf3928" style="width: 100.0%; height: 100.0%;">Pague Menos, SJO02-Barreiro-SC, 0332</div>`)[0];
+            popup_a136c7b6d2084863936c0927f9645087.setContent(html_34811c147b8e4b93badbd5faedbf3928);
+        
+
+        marker_dd0b58e2b8ad42bcb5e9dee1d29d27d6.bindPopup(popup_a136c7b6d2084863936c0927f9645087)
+        ;
+
+        
+    
+    
+            marker_dd0b58e2b8ad42bcb5e9dee1d29d27d6.bindTooltip(
+                `<div>
+                     Pague Menos, SJO02-Barreiro-SC, 0332
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_876ce031f0f34cc49df490c3b2a98889 = L.marker(
+                [-27.59211629, -48.51819378],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_2e53613ef9864764baabbc74f3638c49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44d1c8875a2e4bda92488fe0f8b0e7ff = $(`<div id="html_44d1c8875a2e4bda92488fe0f8b0e7ff" style="width: 100.0%; height: 100.0%;">Rappi Favor, Fln Cont Kobrasol</div>`)[0];
+            popup_2e53613ef9864764baabbc74f3638c49.setContent(html_44d1c8875a2e4bda92488fe0f8b0e7ff);
+        
+
+        marker_876ce031f0f34cc49df490c3b2a98889.bindPopup(popup_2e53613ef9864764baabbc74f3638c49)
+        ;
+
+        
+    
+    
+            marker_876ce031f0f34cc49df490c3b2a98889.bindTooltip(
+                `<div>
+                     Rappi Favor, Fln Cont Kobrasol
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98188821ed2f42c0a5ea7f2c4224b1fc = L.marker(
+                [-27.6004238, -48.6098563],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_2778a620ab63406d8cc526af69188d7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aedaa549ea1f43679c53ea74a07126b2 = $(`<div id="html_aedaa549ea1f43679c53ea74a07126b2" style="width: 100.0%; height: 100.0%;">[F] Burger King - Av. Presidente Kennedy 26184</div>`)[0];
+            popup_2778a620ab63406d8cc526af69188d7f.setContent(html_aedaa549ea1f43679c53ea74a07126b2);
+        
+
+        marker_98188821ed2f42c0a5ea7f2c4224b1fc.bindPopup(popup_2778a620ab63406d8cc526af69188d7f)
+        ;
+
+        
+    
+    
+            marker_98188821ed2f42c0a5ea7f2c4224b1fc.bindTooltip(
+                `<div>
+                     [F] Burger King - Av. Presidente Kennedy 26184
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49fa93e0dcfa404a9d8440b64790ee3d = L.marker(
+                [-27.6004238, -48.6098563],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_5b2ec50f884e4b2ab6ce910d7c56584c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a6831c85d64446094b0627ef1d51315 = $(`<div id="html_5a6831c85d64446094b0627ef1d51315" style="width: 100.0%; height: 100.0%;">[F] Burger King - Av. Presidente Kennedy 26184</div>`)[0];
+            popup_5b2ec50f884e4b2ab6ce910d7c56584c.setContent(html_5a6831c85d64446094b0627ef1d51315);
+        
+
+        marker_49fa93e0dcfa404a9d8440b64790ee3d.bindPopup(popup_5b2ec50f884e4b2ab6ce910d7c56584c)
+        ;
+
+        
+    
+    
+            marker_49fa93e0dcfa404a9d8440b64790ee3d.bindTooltip(
+                `<div>
+                     [F] Burger King - Av. Presidente Kennedy 26184
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_641c7291ddcb4da7bfc74b64161d1e83 = L.marker(
+                [-27.6005296, -48.5137022],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_4ee6cb96ef09458ea1c8df90033d75bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61cb6b8bd6824223822534a12cfa0030 = $(`<div id="html_61cb6b8bd6824223822534a12cfa0030" style="width: 100.0%; height: 100.0%;">Loma Pizza - Trindade</div>`)[0];
+            popup_4ee6cb96ef09458ea1c8df90033d75bb.setContent(html_61cb6b8bd6824223822534a12cfa0030);
+        
+
+        marker_641c7291ddcb4da7bfc74b64161d1e83.bindPopup(popup_4ee6cb96ef09458ea1c8df90033d75bb)
+        ;
+
+        
+    
+    
+            marker_641c7291ddcb4da7bfc74b64161d1e83.bindTooltip(
+                `<div>
+                     Loma Pizza - Trindade
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_952f2485361d4259bb298db2a508b0fc = L.marker(
+                [-27.443885, -48.486724],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_0a7a60487da745bcbc3e586f7fb4b658 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_503c805765e94220ad61511d46129dce = $(`<div id="html_503c805765e94220ad61511d46129dce" style="width: 100.0%; height: 100.0%;">Raia - Fl Jurere A</div>`)[0];
+            popup_0a7a60487da745bcbc3e586f7fb4b658.setContent(html_503c805765e94220ad61511d46129dce);
+        
+
+        marker_952f2485361d4259bb298db2a508b0fc.bindPopup(popup_0a7a60487da745bcbc3e586f7fb4b658)
+        ;
+
+        
+    
+    
+            marker_952f2485361d4259bb298db2a508b0fc.bindTooltip(
+                `<div>
+                     Raia - Fl Jurere A
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1bfc4e8a95ab49c5823ff9bf9d097a53 = L.marker(
+                [-27.59211629, -48.51819378],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_1be24c9825d34538905d6fcca9515d65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb799542c1a54ec4884c678cafa18d7e = $(`<div id="html_eb799542c1a54ec4884c678cafa18d7e" style="width: 100.0%; height: 100.0%;">Rappi Favor, Fs Centro</div>`)[0];
+            popup_1be24c9825d34538905d6fcca9515d65.setContent(html_eb799542c1a54ec4884c678cafa18d7e);
+        
+
+        marker_1bfc4e8a95ab49c5823ff9bf9d097a53.bindPopup(popup_1be24c9825d34538905d6fcca9515d65)
+        ;
+
+        
+    
+    
+            marker_1bfc4e8a95ab49c5823ff9bf9d097a53.bindTooltip(
+                `<div>
+                     Rappi Favor, Fs Centro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9197601250ec492f98f3c62e63186623 = L.marker(
+                [-27.5959, -48.5524],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_fda16680e3a0458c88369c8a8dba879a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c17c98aabbd14339b063af5661e5a05a = $(`<div id="html_c17c98aabbd14339b063af5661e5a05a" style="width: 100.0%; height: 100.0%;">Burger King - Florianópolis 23584</div>`)[0];
+            popup_fda16680e3a0458c88369c8a8dba879a.setContent(html_c17c98aabbd14339b063af5661e5a05a);
+        
+
+        marker_9197601250ec492f98f3c62e63186623.bindPopup(popup_fda16680e3a0458c88369c8a8dba879a)
+        ;
+
+        
+    
+    
+            marker_9197601250ec492f98f3c62e63186623.bindTooltip(
+                `<div>
+                     Burger King - Florianópolis 23584
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fcd4506a990549a98a191927476b0282 = L.marker(
+                [-27.437547, -48.398061],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_2fc68b205e674269abebf1de83a593bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c55b842003fc40c79e0c69594eaccc7c = $(`<div id="html_c55b842003fc40c79e0c69594eaccc7c" style="width: 100.0%; height: 100.0%;">Raia - Fl Ingleses A</div>`)[0];
+            popup_2fc68b205e674269abebf1de83a593bf.setContent(html_c55b842003fc40c79e0c69594eaccc7c);
+        
+
+        marker_fcd4506a990549a98a191927476b0282.bindPopup(popup_2fc68b205e674269abebf1de83a593bf)
+        ;
+
+        
+    
+    
+            marker_fcd4506a990549a98a191927476b0282.bindTooltip(
+                `<div>
+                     Raia - Fl Ingleses A
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28b2bef692394b86aa98c1d60ba29084 = L.marker(
+                [-27.57591558, -48.595136517],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_cdd8fdf56f6b4872bdca0604b4841bbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0fb475a3d4a419aa8dd564ab2d999fb = $(`<div id="html_d0fb475a3d4a419aa8dd564ab2d999fb" style="width: 100.0%; height: 100.0%;">Angeloni, Jardim Atlântico</div>`)[0];
+            popup_cdd8fdf56f6b4872bdca0604b4841bbb.setContent(html_d0fb475a3d4a419aa8dd564ab2d999fb);
+        
+
+        marker_28b2bef692394b86aa98c1d60ba29084.bindPopup(popup_cdd8fdf56f6b4872bdca0604b4841bbb)
+        ;
+
+        
+    
+    
+            marker_28b2bef692394b86aa98c1d60ba29084.bindTooltip(
+                `<div>
+                     Angeloni, Jardim Atlântico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ef00471349b436583c48739e9f01df2 = L.marker(
+                [-27.437547, -48.398061],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_ccc8035ac0fd4f069d1b3d3784298bc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8ca93b961aa4061a3af0c7c5115c690 = $(`<div id="html_e8ca93b961aa4061a3af0c7c5115c690" style="width: 100.0%; height: 100.0%;">Raia - Fl Ingleses A</div>`)[0];
+            popup_ccc8035ac0fd4f069d1b3d3784298bc4.setContent(html_e8ca93b961aa4061a3af0c7c5115c690);
+        
+
+        marker_3ef00471349b436583c48739e9f01df2.bindPopup(popup_ccc8035ac0fd4f069d1b3d3784298bc4)
+        ;
+
+        
+    
+    
+            marker_3ef00471349b436583c48739e9f01df2.bindTooltip(
+                `<div>
+                     Raia - Fl Ingleses A
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_524addef01b24b1784be65e1e002c6ed = L.marker(
+                [-27.443885, -48.486724],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_7760af0b3a784d7f81d433ea7435161b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f92904df280e418ba178dcb89e24d467 = $(`<div id="html_f92904df280e418ba178dcb89e24d467" style="width: 100.0%; height: 100.0%;">Raia - Fl Jurere A</div>`)[0];
+            popup_7760af0b3a784d7f81d433ea7435161b.setContent(html_f92904df280e418ba178dcb89e24d467);
+        
+
+        marker_524addef01b24b1784be65e1e002c6ed.bindPopup(popup_7760af0b3a784d7f81d433ea7435161b)
+        ;
+
+        
+    
+    
+            marker_524addef01b24b1784be65e1e002c6ed.bindTooltip(
+                `<div>
+                     Raia - Fl Jurere A
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f202fb99834e4038b31df64f017007f7 = L.marker(
+                [-27.58988538, -48.51499748],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_4ff7e536b00344e28ff8f8707d15c6b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67b08feb8b7748118e45ebd3b40b2fc8 = $(`<div id="html_67b08feb8b7748118e45ebd3b40b2fc8" style="width: 100.0%; height: 100.0%;">Big, Iguatemi (Florianópolis)</div>`)[0];
+            popup_4ff7e536b00344e28ff8f8707d15c6b0.setContent(html_67b08feb8b7748118e45ebd3b40b2fc8);
+        
+
+        marker_f202fb99834e4038b31df64f017007f7.bindPopup(popup_4ff7e536b00344e28ff8f8707d15c6b0)
+        ;
+
+        
+    
+    
+            marker_f202fb99834e4038b31df64f017007f7.bindTooltip(
+                `<div>
+                     Big, Iguatemi (Florianópolis)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fac536fd0071444e90285e9db29687e3 = L.marker(
+                [-27.5881074, -48.5230394],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_8f0a8300b21e4fc095f294dcf932c578 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6ca670aa521408ebde7deb6cf711098 = $(`<div id="html_a6ca670aa521408ebde7deb6cf711098" style="width: 100.0%; height: 100.0%;">Chef na Van </div>`)[0];
+            popup_8f0a8300b21e4fc095f294dcf932c578.setContent(html_a6ca670aa521408ebde7deb6cf711098);
+        
+
+        marker_fac536fd0071444e90285e9db29687e3.bindPopup(popup_8f0a8300b21e4fc095f294dcf932c578)
+        ;
+
+        
+    
+    
+            marker_fac536fd0071444e90285e9db29687e3.bindTooltip(
+                `<div>
+                     Chef na Van 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c14111649974c89869fe909484c75a8 = L.marker(
+                [-27.591175683, -48.616987028],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_91e3a2f7f44947db9108162b5baa2fdf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abe2540d465044c49247155be021b309 = $(`<div id="html_abe2540d465044c49247155be021b309" style="width: 100.0%; height: 100.0%;">Fort Atacadista, Florianopolis</div>`)[0];
+            popup_91e3a2f7f44947db9108162b5baa2fdf.setContent(html_abe2540d465044c49247155be021b309);
+        
+
+        marker_7c14111649974c89869fe909484c75a8.bindPopup(popup_91e3a2f7f44947db9108162b5baa2fdf)
+        ;
+
+        
+    
+    
+            marker_7c14111649974c89869fe909484c75a8.bindTooltip(
+                `<div>
+                     Fort Atacadista, Florianopolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd7128971cb74aad891383b20f533ab9 = L.marker(
+                [-27.5961369, -48.5479383],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_86e30cb10a4b4ef3891b3110fd013467 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ef2fff9e2f244c38b20aa84a660e234 = $(`<div id="html_7ef2fff9e2f244c38b20aa84a660e234" style="width: 100.0%; height: 100.0%;">Salgadaria Floripa </div>`)[0];
+            popup_86e30cb10a4b4ef3891b3110fd013467.setContent(html_7ef2fff9e2f244c38b20aa84a660e234);
+        
+
+        marker_dd7128971cb74aad891383b20f533ab9.bindPopup(popup_86e30cb10a4b4ef3891b3110fd013467)
+        ;
+
+        
+    
+    
+            marker_dd7128971cb74aad891383b20f533ab9.bindTooltip(
+                `<div>
+                     Salgadaria Floripa 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba240fa48f9944df88e0284db1664191 = L.marker(
+                [-27.6221521, -48.5257566],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_60ca2931e1c2498e80fffb8a81a6cf6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b0bcb1110ab40cf90df85c072f9c435 = $(`<div id="html_6b0bcb1110ab40cf90df85c072f9c435" style="width: 100.0%; height: 100.0%;">Farmácia Super Popular</div>`)[0];
+            popup_60ca2931e1c2498e80fffb8a81a6cf6c.setContent(html_6b0bcb1110ab40cf90df85c072f9c435);
+        
+
+        marker_ba240fa48f9944df88e0284db1664191.bindPopup(popup_60ca2931e1c2498e80fffb8a81a6cf6c)
+        ;
+
+        
+    
+    
+            marker_ba240fa48f9944df88e0284db1664191.bindTooltip(
+                `<div>
+                     Farmácia Super Popular
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e284903be2654b6a8f36ea86a07d62f2 = L.marker(
+                [-27.574555, -48.598444],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_01c9193e89cb499085787b256f3493a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e454742980cb46408f1fefd58b001af8 = $(`<div id="html_e454742980cb46408f1fefd58b001af8" style="width: 100.0%; height: 100.0%;">Droga Raia, Fl Jd Atlantico A</div>`)[0];
+            popup_01c9193e89cb499085787b256f3493a8.setContent(html_e454742980cb46408f1fefd58b001af8);
+        
+
+        marker_e284903be2654b6a8f36ea86a07d62f2.bindPopup(popup_01c9193e89cb499085787b256f3493a8)
+        ;
+
+        
+    
+    
+            marker_e284903be2654b6a8f36ea86a07d62f2.bindTooltip(
+                `<div>
+                     Droga Raia, Fl Jd Atlantico A
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9cbfa7b31ba84e619eba03729285cd8f = L.marker(
+                [-27.591175683, -48.616987028],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_51dd7591fcd74c3586787a733926d213 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_adceb8f74adc4260b8d0da44e6ecd6f2 = $(`<div id="html_adceb8f74adc4260b8d0da44e6ecd6f2" style="width: 100.0%; height: 100.0%;">Fort Atacadista, Florianopolis</div>`)[0];
+            popup_51dd7591fcd74c3586787a733926d213.setContent(html_adceb8f74adc4260b8d0da44e6ecd6f2);
+        
+
+        marker_9cbfa7b31ba84e619eba03729285cd8f.bindPopup(popup_51dd7591fcd74c3586787a733926d213)
+        ;
+
+        
+    
+    
+            marker_9cbfa7b31ba84e619eba03729285cd8f.bindTooltip(
+                `<div>
+                     Fort Atacadista, Florianopolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57f663161f8340518e81c234b577a194 = L.marker(
+                [-27.58988538, -48.51499748],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_07943df41cc445498539fc8ccbadc27b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92fc15002f504721bb952e150fe287f0 = $(`<div id="html_92fc15002f504721bb952e150fe287f0" style="width: 100.0%; height: 100.0%;">Big, Iguatemi (Florianópolis)</div>`)[0];
+            popup_07943df41cc445498539fc8ccbadc27b.setContent(html_92fc15002f504721bb952e150fe287f0);
+        
+
+        marker_57f663161f8340518e81c234b577a194.bindPopup(popup_07943df41cc445498539fc8ccbadc27b)
+        ;
+
+        
+    
+    
+            marker_57f663161f8340518e81c234b577a194.bindTooltip(
+                `<div>
+                     Big, Iguatemi (Florianópolis)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57aee9077a9e4308949e6819ae563b55 = L.marker(
+                [-27.584154, -48.583525],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_785407e69a6c4afda88e157276c3776b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4de46cd9f1564f24abf3d0b57ee32ab6 = $(`<div id="html_4de46cd9f1564f24abf3d0b57ee32ab6" style="width: 100.0%; height: 100.0%;">Droga Raia, BALNEÁRIO</div>`)[0];
+            popup_785407e69a6c4afda88e157276c3776b.setContent(html_4de46cd9f1564f24abf3d0b57ee32ab6);
+        
+
+        marker_57aee9077a9e4308949e6819ae563b55.bindPopup(popup_785407e69a6c4afda88e157276c3776b)
+        ;
+
+        
+    
+    
+            marker_57aee9077a9e4308949e6819ae563b55.bindTooltip(
+                `<div>
+                     Droga Raia, BALNEÁRIO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35bd28e459e742d0b4fc1bd6f9646603 = L.marker(
+                [-27.6004238, -48.6098563],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_8b34158dbf324b51a683386fd3b035e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb2ae6cd84074cd1b257e3271f5461e2 = $(`<div id="html_eb2ae6cd84074cd1b257e3271f5461e2" style="width: 100.0%; height: 100.0%;">[F] Burger King - Av. Presidente Kennedy 26184</div>`)[0];
+            popup_8b34158dbf324b51a683386fd3b035e1.setContent(html_eb2ae6cd84074cd1b257e3271f5461e2);
+        
+
+        marker_35bd28e459e742d0b4fc1bd6f9646603.bindPopup(popup_8b34158dbf324b51a683386fd3b035e1)
+        ;
+
+        
+    
+    
+            marker_35bd28e459e742d0b4fc1bd6f9646603.bindTooltip(
+                `<div>
+                     [F] Burger King - Av. Presidente Kennedy 26184
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25f4ae561cea4c83b59be41702a8144f = L.marker(
+                [-27.5959, -48.5524],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_8b3d88d1c0504689a8428818488efcb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4dfd8c7e877a4a728b28a8de7cae077e = $(`<div id="html_4dfd8c7e877a4a728b28a8de7cae077e" style="width: 100.0%; height: 100.0%;">Burger King - Florianópolis 23584</div>`)[0];
+            popup_8b3d88d1c0504689a8428818488efcb1.setContent(html_4dfd8c7e877a4a728b28a8de7cae077e);
+        
+
+        marker_25f4ae561cea4c83b59be41702a8144f.bindPopup(popup_8b3d88d1c0504689a8428818488efcb1)
+        ;
+
+        
+    
+    
+            marker_25f4ae561cea4c83b59be41702a8144f.bindTooltip(
+                `<div>
+                     Burger King - Florianópolis 23584
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_293d6ce376c94f3eb47746607c50ea46 = L.marker(
+                [-27.5959, -48.5524],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_6e2890f488704c35b4c328a872bda671 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_503027466bb84b3684211726f7888109 = $(`<div id="html_503027466bb84b3684211726f7888109" style="width: 100.0%; height: 100.0%;">Burger King - Florianópolis 23584</div>`)[0];
+            popup_6e2890f488704c35b4c328a872bda671.setContent(html_503027466bb84b3684211726f7888109);
+        
+
+        marker_293d6ce376c94f3eb47746607c50ea46.bindPopup(popup_6e2890f488704c35b4c328a872bda671)
+        ;
+
+        
+    
+    
+            marker_293d6ce376c94f3eb47746607c50ea46.bindTooltip(
+                `<div>
+                     Burger King - Florianópolis 23584
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b288d65b38bf4d8d9725bacf8ed0ece6 = L.marker(
+                [-27.591175683, -48.616987028],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_7888b9ab15a74de3941f676f9ffb8dc7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b241e0ca065741fcbcb651aff12eb5a9 = $(`<div id="html_b241e0ca065741fcbcb651aff12eb5a9" style="width: 100.0%; height: 100.0%;">Fort Atacadista, Florianopolis</div>`)[0];
+            popup_7888b9ab15a74de3941f676f9ffb8dc7.setContent(html_b241e0ca065741fcbcb651aff12eb5a9);
+        
+
+        marker_b288d65b38bf4d8d9725bacf8ed0ece6.bindPopup(popup_7888b9ab15a74de3941f676f9ffb8dc7)
+        ;
+
+        
+    
+    
+            marker_b288d65b38bf4d8d9725bacf8ed0ece6.bindTooltip(
+                `<div>
+                     Fort Atacadista, Florianopolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89e0121a80974953bfa5d19865e5e738 = L.marker(
+                [-27.6004238, -48.6098563],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_32d1ea2e2d184627b9f5ab02773e0df4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e64f61a4409f4f86abda478a32d5f433 = $(`<div id="html_e64f61a4409f4f86abda478a32d5f433" style="width: 100.0%; height: 100.0%;">[F] Burger King - Av. Presidente Kennedy 26184</div>`)[0];
+            popup_32d1ea2e2d184627b9f5ab02773e0df4.setContent(html_e64f61a4409f4f86abda478a32d5f433);
+        
+
+        marker_89e0121a80974953bfa5d19865e5e738.bindPopup(popup_32d1ea2e2d184627b9f5ab02773e0df4)
+        ;
+
+        
+    
+    
+            marker_89e0121a80974953bfa5d19865e5e738.bindTooltip(
+                `<div>
+                     [F] Burger King - Av. Presidente Kennedy 26184
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d16063b576a4337a5548ba0844cb838 = L.marker(
+                [-27.6221521, -48.5257566],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_aafe43269cce44c7a2a7932024a05622 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ee94085353548ac91998eb5be6b0cf2 = $(`<div id="html_1ee94085353548ac91998eb5be6b0cf2" style="width: 100.0%; height: 100.0%;">Farmácia Super Popular</div>`)[0];
+            popup_aafe43269cce44c7a2a7932024a05622.setContent(html_1ee94085353548ac91998eb5be6b0cf2);
+        
+
+        marker_1d16063b576a4337a5548ba0844cb838.bindPopup(popup_aafe43269cce44c7a2a7932024a05622)
+        ;
+
+        
+    
+    
+            marker_1d16063b576a4337a5548ba0844cb838.bindTooltip(
+                `<div>
+                     Farmácia Super Popular
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_827d995fba90449189130358d5704a00 = L.marker(
+                [-27.5955524, -48.5502082],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_d299a22274b1411488241b4db1ecedb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_333316c8d93b41f588c561dd7432e179 = $(`<div id="html_333316c8d93b41f588c561dd7432e179" style="width: 100.0%; height: 100.0%;">Rei do Mate - Parque D. Pedro Shopping Campinas</div>`)[0];
+            popup_d299a22274b1411488241b4db1ecedb1.setContent(html_333316c8d93b41f588c561dd7432e179);
+        
+
+        marker_827d995fba90449189130358d5704a00.bindPopup(popup_d299a22274b1411488241b4db1ecedb1)
+        ;
+
+        
+    
+    
+            marker_827d995fba90449189130358d5704a00.bindTooltip(
+                `<div>
+                     Rei do Mate - Parque D. Pedro Shopping Campinas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_653d319af0ed4556a5835e97b5a68bb8 = L.marker(
+                [-27.57591558, -48.595136517],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_0eefcc6723644e0b969f84cccb8b8f5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ae29c4a4bbc4cb083875f735c42653c = $(`<div id="html_2ae29c4a4bbc4cb083875f735c42653c" style="width: 100.0%; height: 100.0%;">Angeloni, Jardim Atlântico</div>`)[0];
+            popup_0eefcc6723644e0b969f84cccb8b8f5e.setContent(html_2ae29c4a4bbc4cb083875f735c42653c);
+        
+
+        marker_653d319af0ed4556a5835e97b5a68bb8.bindPopup(popup_0eefcc6723644e0b969f84cccb8b8f5e)
+        ;
+
+        
+    
+    
+            marker_653d319af0ed4556a5835e97b5a68bb8.bindTooltip(
+                `<div>
+                     Angeloni, Jardim Atlântico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a677b35e4fc4f278eaa026c5538e69e = L.marker(
+                [-27.591175683, -48.616987028],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_6954c412aa814353ba6c24c90001578b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19a9bb5f9db54bfd918a91b24eab9248 = $(`<div id="html_19a9bb5f9db54bfd918a91b24eab9248" style="width: 100.0%; height: 100.0%;">Fort Atacadista, Florianopolis</div>`)[0];
+            popup_6954c412aa814353ba6c24c90001578b.setContent(html_19a9bb5f9db54bfd918a91b24eab9248);
+        
+
+        marker_1a677b35e4fc4f278eaa026c5538e69e.bindPopup(popup_6954c412aa814353ba6c24c90001578b)
+        ;
+
+        
+    
+    
+            marker_1a677b35e4fc4f278eaa026c5538e69e.bindTooltip(
+                `<div>
+                     Fort Atacadista, Florianopolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cfa0db77e23e40229086854b412e9dd7 = L.marker(
+                [-27.591175683, -48.616987028],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_16d1c3a9ff17400ba9d3552f2615b3dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40ac65592b3e4f56b0a02e1c5dd19025 = $(`<div id="html_40ac65592b3e4f56b0a02e1c5dd19025" style="width: 100.0%; height: 100.0%;">Fort Atacadista, Florianopolis</div>`)[0];
+            popup_16d1c3a9ff17400ba9d3552f2615b3dd.setContent(html_40ac65592b3e4f56b0a02e1c5dd19025);
+        
+
+        marker_cfa0db77e23e40229086854b412e9dd7.bindPopup(popup_16d1c3a9ff17400ba9d3552f2615b3dd)
+        ;
+
+        
+    
+    
+            marker_cfa0db77e23e40229086854b412e9dd7.bindTooltip(
+                `<div>
+                     Fort Atacadista, Florianopolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_26b24c741dfd40c8b5146eca1f92656c = L.marker(
+                [-27.5881074, -48.5230394],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_9f6c26f8f5074b1990d39c7211c5b7df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e54dfb4578b74934945e38efac2b1037 = $(`<div id="html_e54dfb4578b74934945e38efac2b1037" style="width: 100.0%; height: 100.0%;">Chef na Van </div>`)[0];
+            popup_9f6c26f8f5074b1990d39c7211c5b7df.setContent(html_e54dfb4578b74934945e38efac2b1037);
+        
+
+        marker_26b24c741dfd40c8b5146eca1f92656c.bindPopup(popup_9f6c26f8f5074b1990d39c7211c5b7df)
+        ;
+
+        
+    
+    
+            marker_26b24c741dfd40c8b5146eca1f92656c.bindTooltip(
+                `<div>
+                     Chef na Van 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95794bbbe2c744fa9fe7f1f468449303 = L.marker(
+                [-27.437547, -48.398061],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_aeadec1d191a4137988d790f95d9e4a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32db6072b2974e5b97dfdfd40a214ac8 = $(`<div id="html_32db6072b2974e5b97dfdfd40a214ac8" style="width: 100.0%; height: 100.0%;">Raia - Fl Ingleses A</div>`)[0];
+            popup_aeadec1d191a4137988d790f95d9e4a6.setContent(html_32db6072b2974e5b97dfdfd40a214ac8);
+        
+
+        marker_95794bbbe2c744fa9fe7f1f468449303.bindPopup(popup_aeadec1d191a4137988d790f95d9e4a6)
+        ;
+
+        
+    
+    
+            marker_95794bbbe2c744fa9fe7f1f468449303.bindTooltip(
+                `<div>
+                     Raia - Fl Ingleses A
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39bffcf75b884d42b198d1233f0262fb = L.marker(
+                [-27.595167, -48.613957],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_f642bef8ed9f45b0bd54d6c56fefae13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59c5da27c6b64bd7bca3568f621ac5ec = $(`<div id="html_59c5da27c6b64bd7bca3568f621ac5ec" style="width: 100.0%; height: 100.0%;">Panvel, 458</div>`)[0];
+            popup_f642bef8ed9f45b0bd54d6c56fefae13.setContent(html_59c5da27c6b64bd7bca3568f621ac5ec);
+        
+
+        marker_39bffcf75b884d42b198d1233f0262fb.bindPopup(popup_f642bef8ed9f45b0bd54d6c56fefae13)
+        ;
+
+        
+    
+    
+            marker_39bffcf75b884d42b198d1233f0262fb.bindTooltip(
+                `<div>
+                     Panvel, 458
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e567381e2c07485482626649a6f09b5c = L.marker(
+                [-27.591175683, -48.616987028],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_532ce88449e840e09d70a142ec2ac90a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36f4d44264f74bfb9afadc56a0c4306c = $(`<div id="html_36f4d44264f74bfb9afadc56a0c4306c" style="width: 100.0%; height: 100.0%;">Fort Atacadista, Florianopolis</div>`)[0];
+            popup_532ce88449e840e09d70a142ec2ac90a.setContent(html_36f4d44264f74bfb9afadc56a0c4306c);
+        
+
+        marker_e567381e2c07485482626649a6f09b5c.bindPopup(popup_532ce88449e840e09d70a142ec2ac90a)
+        ;
+
+        
+    
+    
+            marker_e567381e2c07485482626649a6f09b5c.bindTooltip(
+                `<div>
+                     Fort Atacadista, Florianopolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_209578e4167f40d582b5a0fbd4d87ee6 = L.marker(
+                [-27.613932, -48.586253],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_9ebf373502304d15831998c822922c82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4acb47030b39468895971e2297ca8c38 = $(`<div id="html_4acb47030b39468895971e2297ca8c38" style="width: 100.0%; height: 100.0%;">Pague Menos, Coqueiros</div>`)[0];
+            popup_9ebf373502304d15831998c822922c82.setContent(html_4acb47030b39468895971e2297ca8c38);
+        
+
+        marker_209578e4167f40d582b5a0fbd4d87ee6.bindPopup(popup_9ebf373502304d15831998c822922c82)
+        ;
+
+        
+    
+    
+            marker_209578e4167f40d582b5a0fbd4d87ee6.bindTooltip(
+                `<div>
+                     Pague Menos, Coqueiros
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee5a02e454d84754ae041b4b7eda4d92 = L.marker(
+                [-27.581229, -48.5840342],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_3cf3c2ed347e405b82edcc364243e39e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f1472b5527541a282ba8cb09db176c3 = $(`<div id="html_1f1472b5527541a282ba8cb09db176c3" style="width: 100.0%; height: 100.0%;">Flame Burger </div>`)[0];
+            popup_3cf3c2ed347e405b82edcc364243e39e.setContent(html_1f1472b5527541a282ba8cb09db176c3);
+        
+
+        marker_ee5a02e454d84754ae041b4b7eda4d92.bindPopup(popup_3cf3c2ed347e405b82edcc364243e39e)
+        ;
+
+        
+    
+    
+            marker_ee5a02e454d84754ae041b4b7eda4d92.bindTooltip(
+                `<div>
+                     Flame Burger 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a2a828d3362417a89f988faebb93e26 = L.marker(
+                [-27.5882669, -48.5997529],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_0643df5e740a481fb757d7c3e5cf18f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9acedb5c546f45fd965d43a907e9fe6e = $(`<div id="html_9acedb5c546f45fd965d43a907e9fe6e" style="width: 100.0%; height: 100.0%;">Padaria Santa Helena </div>`)[0];
+            popup_0643df5e740a481fb757d7c3e5cf18f2.setContent(html_9acedb5c546f45fd965d43a907e9fe6e);
+        
+
+        marker_9a2a828d3362417a89f988faebb93e26.bindPopup(popup_0643df5e740a481fb757d7c3e5cf18f2)
+        ;
+
+        
+    
+    
+            marker_9a2a828d3362417a89f988faebb93e26.bindTooltip(
+                `<div>
+                     Padaria Santa Helena 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1938ca6f3aab4d40845ee3d910825d98 = L.marker(
+                [-27.581229, -48.5840342],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_d033b6a4a80d48d39fb609b569ad29a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45f206a7ffe14d188ce4455ce6975420 = $(`<div id="html_45f206a7ffe14d188ce4455ce6975420" style="width: 100.0%; height: 100.0%;">Flame Burger </div>`)[0];
+            popup_d033b6a4a80d48d39fb609b569ad29a5.setContent(html_45f206a7ffe14d188ce4455ce6975420);
+        
+
+        marker_1938ca6f3aab4d40845ee3d910825d98.bindPopup(popup_d033b6a4a80d48d39fb609b569ad29a5)
+        ;
+
+        
+    
+    
+            marker_1938ca6f3aab4d40845ee3d910825d98.bindTooltip(
+                `<div>
+                     Flame Burger 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5c3723e6b8e40c8833777807c6bf993 = L.marker(
+                [-27.57591558, -48.595136517],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_497bcba21e1f472c880d8265e8fa5e91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3272e7dfdbe46c79e601e32f55b9e3c = $(`<div id="html_f3272e7dfdbe46c79e601e32f55b9e3c" style="width: 100.0%; height: 100.0%;">Angeloni, Jardim Atlântico</div>`)[0];
+            popup_497bcba21e1f472c880d8265e8fa5e91.setContent(html_f3272e7dfdbe46c79e601e32f55b9e3c);
+        
+
+        marker_f5c3723e6b8e40c8833777807c6bf993.bindPopup(popup_497bcba21e1f472c880d8265e8fa5e91)
+        ;
+
+        
+    
+    
+            marker_f5c3723e6b8e40c8833777807c6bf993.bindTooltip(
+                `<div>
+                     Angeloni, Jardim Atlântico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a89b6b10ae641649b900546da24a649 = L.marker(
+                [-27.5948732, -48.6139025],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_c28a4a82f0624d5b959ec58f569e50f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f0db0e76d954ea38de5f03570f0eeee = $(`<div id="html_5f0db0e76d954ea38de5f03570f0eeee" style="width: 100.0%; height: 100.0%;">Raia, Kobrasol</div>`)[0];
+            popup_c28a4a82f0624d5b959ec58f569e50f1.setContent(html_5f0db0e76d954ea38de5f03570f0eeee);
+        
+
+        marker_0a89b6b10ae641649b900546da24a649.bindPopup(popup_c28a4a82f0624d5b959ec58f569e50f1)
+        ;
+
+        
+    
+    
+            marker_0a89b6b10ae641649b900546da24a649.bindTooltip(
+                `<div>
+                     Raia, Kobrasol
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7021c2bfa2254f1f9807a611243535b2 = L.marker(
+                [-27.5897538, -48.5152812],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_0861cb1d6d49449a85c8afb0b9b7d5c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10a5edfa85dd47548cfc10a5da438a1f = $(`<div id="html_10a5edfa85dd47548cfc10a5da438a1f" style="width: 100.0%; height: 100.0%;">Spoleto - Villa Romana </div>`)[0];
+            popup_0861cb1d6d49449a85c8afb0b9b7d5c1.setContent(html_10a5edfa85dd47548cfc10a5da438a1f);
+        
+
+        marker_7021c2bfa2254f1f9807a611243535b2.bindPopup(popup_0861cb1d6d49449a85c8afb0b9b7d5c1)
+        ;
+
+        
+    
+    
+            marker_7021c2bfa2254f1f9807a611243535b2.bindTooltip(
+                `<div>
+                     Spoleto - Villa Romana 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b685fd6d712406b9ca89850fc1993f3 = L.marker(
+                [-27.58988538, -48.51499748],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_e05d697cd21b41da9ca61a481b413729 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e205ab5c7ae47de9462c4d415feb028 = $(`<div id="html_5e205ab5c7ae47de9462c4d415feb028" style="width: 100.0%; height: 100.0%;">Big, Iguatemi (Florianópolis)</div>`)[0];
+            popup_e05d697cd21b41da9ca61a481b413729.setContent(html_5e205ab5c7ae47de9462c4d415feb028);
+        
+
+        marker_2b685fd6d712406b9ca89850fc1993f3.bindPopup(popup_e05d697cd21b41da9ca61a481b413729)
+        ;
+
+        
+    
+    
+            marker_2b685fd6d712406b9ca89850fc1993f3.bindTooltip(
+                `<div>
+                     Big, Iguatemi (Florianópolis)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b3794898e83498c984ddd226298ee81 = L.marker(
+                [-27.591175683, -48.616987028],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_d114fbb33df341b3a5cfc23b43b0a8b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a5476947c93429693d4dc60c0df4b21 = $(`<div id="html_3a5476947c93429693d4dc60c0df4b21" style="width: 100.0%; height: 100.0%;">Fort Atacadista, Florianopolis</div>`)[0];
+            popup_d114fbb33df341b3a5cfc23b43b0a8b4.setContent(html_3a5476947c93429693d4dc60c0df4b21);
+        
+
+        marker_7b3794898e83498c984ddd226298ee81.bindPopup(popup_d114fbb33df341b3a5cfc23b43b0a8b4)
+        ;
+
+        
+    
+    
+            marker_7b3794898e83498c984ddd226298ee81.bindTooltip(
+                `<div>
+                     Fort Atacadista, Florianopolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2cdd368dbff94e74bf8a42c80ac5fbcd = L.marker(
+                [-27.588271, -48.523472],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_1e9fdacf92684babbe1c2f68c0b7724a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0020c3ed36b94934a96d145a46d8c879 = $(`<div id="html_0020c3ed36b94934a96d145a46d8c879" style="width: 100.0%; height: 100.0%;">Droga Raia, Fl Trindade A</div>`)[0];
+            popup_1e9fdacf92684babbe1c2f68c0b7724a.setContent(html_0020c3ed36b94934a96d145a46d8c879);
+        
+
+        marker_2cdd368dbff94e74bf8a42c80ac5fbcd.bindPopup(popup_1e9fdacf92684babbe1c2f68c0b7724a)
+        ;
+
+        
+    
+    
+            marker_2cdd368dbff94e74bf8a42c80ac5fbcd.bindTooltip(
+                `<div>
+                     Droga Raia, Fl Trindade A
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_caa5dc670c3349b89dd4fc67c5aa2a0a = L.marker(
+                [-27.6004238, -48.6098563],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_1b446760d4db4b4299364850814bc681 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aebe615f18a04018a84eaffbd25d69bb = $(`<div id="html_aebe615f18a04018a84eaffbd25d69bb" style="width: 100.0%; height: 100.0%;">[F] Burger King - Av. Presidente Kennedy 26184</div>`)[0];
+            popup_1b446760d4db4b4299364850814bc681.setContent(html_aebe615f18a04018a84eaffbd25d69bb);
+        
+
+        marker_caa5dc670c3349b89dd4fc67c5aa2a0a.bindPopup(popup_1b446760d4db4b4299364850814bc681)
+        ;
+
+        
+    
+    
+            marker_caa5dc670c3349b89dd4fc67c5aa2a0a.bindTooltip(
+                `<div>
+                     [F] Burger King - Av. Presidente Kennedy 26184
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e111ee384eff4f4295c513cd2b3f7df2 = L.marker(
+                [-27.591175683, -48.616987028],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_4a6fd24d802f4055b531c08cb560f861 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a49ad7963a04d49b5ea8ff10d26fe03 = $(`<div id="html_3a49ad7963a04d49b5ea8ff10d26fe03" style="width: 100.0%; height: 100.0%;">Fort Atacadista, Florianopolis</div>`)[0];
+            popup_4a6fd24d802f4055b531c08cb560f861.setContent(html_3a49ad7963a04d49b5ea8ff10d26fe03);
+        
+
+        marker_e111ee384eff4f4295c513cd2b3f7df2.bindPopup(popup_4a6fd24d802f4055b531c08cb560f861)
+        ;
+
+        
+    
+    
+            marker_e111ee384eff4f4295c513cd2b3f7df2.bindTooltip(
+                `<div>
+                     Fort Atacadista, Florianopolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a50a79bd084b49cda7a51e0e061740c3 = L.marker(
+                [-27.443885, -48.486724],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_7c52ed70e0b741f0aa53150f1c48dbbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_271e7f34f14d48d2bef27cd0f7a04051 = $(`<div id="html_271e7f34f14d48d2bef27cd0f7a04051" style="width: 100.0%; height: 100.0%;">Raia - Fl Jurere A</div>`)[0];
+            popup_7c52ed70e0b741f0aa53150f1c48dbbb.setContent(html_271e7f34f14d48d2bef27cd0f7a04051);
+        
+
+        marker_a50a79bd084b49cda7a51e0e061740c3.bindPopup(popup_7c52ed70e0b741f0aa53150f1c48dbbb)
+        ;
+
+        
+    
+    
+            marker_a50a79bd084b49cda7a51e0e061740c3.bindTooltip(
+                `<div>
+                     Raia - Fl Jurere A
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_caf1f9c88831467280496fc4f5bf49f0 = L.marker(
+                [-27.5948732, -48.6139025],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_c8c0a5a19dba42509351ab7b92e1c958 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9555e70e99a494fa82e25c96b577860 = $(`<div id="html_f9555e70e99a494fa82e25c96b577860" style="width: 100.0%; height: 100.0%;">Raia, Kobrasol</div>`)[0];
+            popup_c8c0a5a19dba42509351ab7b92e1c958.setContent(html_f9555e70e99a494fa82e25c96b577860);
+        
+
+        marker_caf1f9c88831467280496fc4f5bf49f0.bindPopup(popup_c8c0a5a19dba42509351ab7b92e1c958)
+        ;
+
+        
+    
+    
+            marker_caf1f9c88831467280496fc4f5bf49f0.bindTooltip(
+                `<div>
+                     Raia, Kobrasol
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_199b3b938d7841f29324900f53fc189e = L.marker(
+                [-27.6004238, -48.6098563],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_6ea413ad9ae24af7947351878fe9a7c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3b553ebc41341358ec981c5fe9e84f7 = $(`<div id="html_b3b553ebc41341358ec981c5fe9e84f7" style="width: 100.0%; height: 100.0%;">[F] Burger King - Av. Presidente Kennedy 26184</div>`)[0];
+            popup_6ea413ad9ae24af7947351878fe9a7c4.setContent(html_b3b553ebc41341358ec981c5fe9e84f7);
+        
+
+        marker_199b3b938d7841f29324900f53fc189e.bindPopup(popup_6ea413ad9ae24af7947351878fe9a7c4)
+        ;
+
+        
+    
+    
+            marker_199b3b938d7841f29324900f53fc189e.bindTooltip(
+                `<div>
+                     [F] Burger King - Av. Presidente Kennedy 26184
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_760aa0adbfd34323a98f5a717d7911ab = L.marker(
+                [-27.5948732, -48.6139025],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_518aa177cea74239a15b3184605273b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ead9e775824d48a188e50653025b51ff = $(`<div id="html_ead9e775824d48a188e50653025b51ff" style="width: 100.0%; height: 100.0%;">Raia, Kobrasol</div>`)[0];
+            popup_518aa177cea74239a15b3184605273b9.setContent(html_ead9e775824d48a188e50653025b51ff);
+        
+
+        marker_760aa0adbfd34323a98f5a717d7911ab.bindPopup(popup_518aa177cea74239a15b3184605273b9)
+        ;
+
+        
+    
+    
+            marker_760aa0adbfd34323a98f5a717d7911ab.bindTooltip(
+                `<div>
+                     Raia, Kobrasol
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d2632ec71ab4cbeb4666b8134328580 = L.marker(
+                [-27.596441, -48.593416],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_42c73c92353b4016a880e44d4f4bab66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf64c6cf89fb400fbc8e32247825e660 = $(`<div id="html_cf64c6cf89fb400fbc8e32247825e660" style="width: 100.0%; height: 100.0%;">Raia - Fl Capoeiras A</div>`)[0];
+            popup_42c73c92353b4016a880e44d4f4bab66.setContent(html_cf64c6cf89fb400fbc8e32247825e660);
+        
+
+        marker_4d2632ec71ab4cbeb4666b8134328580.bindPopup(popup_42c73c92353b4016a880e44d4f4bab66)
+        ;
+
+        
+    
+    
+            marker_4d2632ec71ab4cbeb4666b8134328580.bindTooltip(
+                `<div>
+                     Raia - Fl Capoeiras A
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72d129071b7e4138a5f00fc29b48fefe = L.marker(
+                [-27.6004238, -48.6098563],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_a4c0b7c874524db3a30af43304876d26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b16efd0c75854d4aab58627b06cdda03 = $(`<div id="html_b16efd0c75854d4aab58627b06cdda03" style="width: 100.0%; height: 100.0%;">[F] Burger King - Av. Presidente Kennedy 26184</div>`)[0];
+            popup_a4c0b7c874524db3a30af43304876d26.setContent(html_b16efd0c75854d4aab58627b06cdda03);
+        
+
+        marker_72d129071b7e4138a5f00fc29b48fefe.bindPopup(popup_a4c0b7c874524db3a30af43304876d26)
+        ;
+
+        
+    
+    
+            marker_72d129071b7e4138a5f00fc29b48fefe.bindTooltip(
+                `<div>
+                     [F] Burger King - Av. Presidente Kennedy 26184
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b266a16d6d624dd0bb8783ff8bdf61c9 = L.marker(
+                [-27.60588866, -48.625172559],
+                {}
+            ).addTo(marker_cluster_f24018e5e5494b65b8d6382b17623cc9);
+        
+    
+        var popup_43b7e55bdfd54d4a8a381b02b791c00d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_917486cb6d904ba5a42b4757777fcfe7 = $(`<div id="html_917486cb6d904ba5a42b4757777fcfe7" style="width: 100.0%; height: 100.0%;">Bistek Praia Comprida</div>`)[0];
+            popup_43b7e55bdfd54d4a8a381b02b791c00d.setContent(html_917486cb6d904ba5a42b4757777fcfe7);
+        
+
+        marker_b266a16d6d624dd0bb8783ff8bdf61c9.bindPopup(popup_43b7e55bdfd54d4a8a381b02b791c00d)
+        ;
+
+        
+    
+    
+            marker_b266a16d6d624dd0bb8783ff8bdf61c9.bindTooltip(
+                `<div>
+                     Bistek Praia Comprida
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
